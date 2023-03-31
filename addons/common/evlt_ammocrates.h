@@ -28,7 +28,7 @@
 		{
 		};
 
-		class TransportItems //- for inventory items like blackpacks, terminals, maps, optics, other rifle attachments
+		class TransportItems //- for inventory items like watches, terminals, maps, optics, other rifle attachments
 		{
 		};
 		class TransportBackpacks //- for backpacks like deployable turrets, alice packs, et cetera
