@@ -24,17 +24,32 @@
 
 		class TransportWeapons //- for guns... RHS had format weap_xx(classname,amount)
 		{
+			weap_xx(rhs_weap_M136,1)
 		};
 
 		class TransportMagazines //- for zigzagazines... RHS had mag_xx(classname,amount)
 		{
+			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag,35)
+			mag_xx(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_red,10)
+			mag_xx(1Rnd_Smoke_Grenade_shell,5)
+			mag_xx(1Rnd_SmokeRed_Grenade_shell,5)
+			mag_xx(1Rnd_SmokeBlue_Grenade_shell,5)
+			mag_xx(ACE_40mm_Flare_white,10)
+			mag_xx(SmokeShellRed,5)
+			mag_xx(SmokeShellBlue,5)
+			mag_xx(rhs_mag_m67,5)
+			mag_xx(rhsusf_200rnd_556x45_mixed_box,5)
+			mag_xx(rhs_mag_M433_HEDP,10)
+			mag_xx(SmokeShell,5)
 		};
 
 		class TransportItems //- for inventory items like watches, terminals, maps, optics, other rifle attachments
 		{
+			item_xx(ACE_fieldDressing,10)
 		};
 		class TransportBackpacks //- for backpacks like deployable turrets, alice packs, et cetera
 		{
+			back_xx(B_Kitbag_rgr,1)
 		};
 	};
 
@@ -568,17 +583,7 @@
 
 		class TransportWeapons //- for guns... RHS had format weap_xx(classname,amount)
 		{
-		};
-
-		class TransportMagazines //- for zigzagazines... RHS had mag_xx(classname,amount)
-		{
-		};
-
-		class TransportItems //- for inventory items like watches, terminals, maps, optics, other rifle attachments
-		{
-		};
-		class TransportBackpacks //- for backpacks like deployable turrets, alice packs, et cetera
-		{
+			weap_xx(rhs_weap_M136,4)
 		};
 	};
 	
