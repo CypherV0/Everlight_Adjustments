@@ -1856,6 +1856,7 @@ class Box_Syndicate_WpsLaunch_F;
 				name="ACE_fieldDressing";
 				count=10;
 			};
+        };
         class TransportMagazines
         {
 			class rhs_30Rnd_545x39_7N6M_plum_AK
@@ -1938,7 +1939,7 @@ class Box_Syndicate_WpsLaunch_F;
 				name="ACE_fieldDressing";
 				count=10;
 			};
-	};
+        };
         class TransportMagazines
         {
 			class rhs_30Rnd_545x39_7N10_plum_AK
@@ -2021,6 +2022,7 @@ class Box_Syndicate_WpsLaunch_F;
 				name="ACE_fieldDressing";
 				count=10;
 			};
+        };
         class TransportMagazines
         {
 			class rhssaf_250Rnd_762x54R
