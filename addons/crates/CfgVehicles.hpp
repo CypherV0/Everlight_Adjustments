@@ -1269,7 +1269,7 @@ class Box_Syndicate_WpsLaunch_F;
             init="''";
         };
         scope=2;
-        vehicleclass="EVLT_MAT_MAWS_crate";
+        vehicleclass="EVLT_MAT_MAAWS_crate";
         displayName="MAT Crate (MAAWS)";
         DLC="Expansion";
         editorCategory="Everlight Crates";
@@ -2058,6 +2058,70 @@ class Box_Syndicate_WpsLaunch_F;
 			class rhs_weap_rpg75
 			{
 				weapon="rhs_weap_rpg75";
+				count=2;
+			};
+        };
+    };
+	
+	class EVLT_RAT_M72A6_crate:Box_Syndicate_WpsLaunch_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_RAT_M72A6_crate";
+        displayName="Launcher Crate (M72A6)";
+        DLC="Expansion";
+        editorCategory="Everlight Crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+        class TransportWeapons
+        {
+			class CUP_launch_M72A6_Special
+			{
+				weapon="CUP_launch_M72A6_Special";
+				count=2;
+			};
+        };
+    };
+	
+	class EVLT_RAT_M72A7_crate:Box_Syndicate_WpsLaunch_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_RAT_M72A7_crate";
+        displayName="Launcher Crate (M72A7)";
+        DLC="Expansion";
+        editorCategory="Everlight Crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+        class TransportWeapons
+        {
+			class rhs_weap_m72a7
+			{
+				weapon="rhs_weap_m72a7";
 				count=2;
 			};
         };
