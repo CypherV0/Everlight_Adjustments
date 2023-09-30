@@ -1039,6 +1039,7 @@ class Box_Syndicate_WpsLaunch_F;
 				name="ACE_fieldDressing";
 				count=10;
 			};
+        };
         class TransportMagazines
         {
 			class hlc_100rnd_556x45_M_G36
@@ -1088,6 +1089,7 @@ class Box_Syndicate_WpsLaunch_F;
 				name="ACE_fieldDressing";
 				count=10;
 			};
+        };
         class TransportMagazines
         {
 			class rhs_mag_100Rnd_556x45_M855A1_cmag_mixed
@@ -1137,6 +1139,7 @@ class Box_Syndicate_WpsLaunch_F;
 				name="ACE_fieldDressing";
 				count=10;
 			};
+        };
         class TransportMagazines
         {
 			class UK3CB_MG3_250rnd_762x51_RT
@@ -1186,6 +1189,7 @@ class Box_Syndicate_WpsLaunch_F;
 				name="ACE_fieldDressing";
 				count=10;
 			};
+        };
         class TransportMagazines
         {
 			class rhs_60Rnd_545X39_AK_Green
@@ -1235,6 +1239,7 @@ class Box_Syndicate_WpsLaunch_F;
 				name="ACE_fieldDressing";
 				count=10;
 			};
+        };
         class TransportMagazines
         {
 			class ace_compat_rhs_usf3_mag_TOW2A
@@ -1284,6 +1289,7 @@ class Box_Syndicate_WpsLaunch_F;
 				name="ACE_fieldDressing";
 				count=10;
 			};
+        };
         class TransportMagazines
         {
 			class MRAWS_HEAT_F
@@ -1333,6 +1339,7 @@ class Box_Syndicate_WpsLaunch_F;
 				name="ACE_fieldDressing";
 				count=10;
 			};
+        };
         class TransportMagazines
         {
 			class ace_compat_rhs_afrf3_mag_9m1331
@@ -1382,6 +1389,7 @@ class Box_Syndicate_WpsLaunch_F;
 				name="ACE_fieldDressing";
 				count=10;
 			};
+        };
         class TransportMagazines
         {
 			class rhs_rpg7_PG7VS_mag
@@ -1431,6 +1439,7 @@ class Box_Syndicate_WpsLaunch_F;
 				name="ACE_fieldDressing";
 				count=10;
 			};
+        };
         class TransportMagazines
         {
 			class rhs_fgm148_magazine_AT
@@ -2188,7 +2197,7 @@ class Box_Syndicate_WpsLaunch_F;
 				name="ACE_fieldDressing";
 				count=10;
 			};
-	};
+        };
         class TransportMagazines
         {
 			class rhs_100Rnd_762x54mmR_green
@@ -2238,6 +2247,7 @@ class Box_Syndicate_WpsLaunch_F;
 				name="ACE_fieldDressing";
 				count=10;
 			};
+        };
         class TransportMagazines
         {
 			class rhsusf_100Rnd_762x51_m62_tracer
