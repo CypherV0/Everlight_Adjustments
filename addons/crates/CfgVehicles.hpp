@@ -2188,6 +2188,7 @@ class Box_Syndicate_WpsLaunch_F;
 				name="ACE_fieldDressing";
 				count=10;
 			};
+	};
         class TransportMagazines
         {
 			class rhs_100Rnd_762x54mmR_green
