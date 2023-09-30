@@ -1938,6 +1938,7 @@ class Box_Syndicate_WpsLaunch_F;
 				name="ACE_fieldDressing";
 				count=10;
 			};
+	};
         class TransportMagazines
         {
 			class rhs_30Rnd_545x39_7N10_plum_AK
