@@ -35,4 +35,12 @@ class CfgEditorSubcategories
 	{
 		displayName = "HAT Crates";
 	};
+	class Other_crates
+	{
+		displayName = "Other Crates";
+	};
+	class AAM_crates
+	{
+		displayName = "AA Missile Crates";
+	};
 };
