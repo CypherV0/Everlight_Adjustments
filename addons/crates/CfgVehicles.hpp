@@ -1931,12 +1931,12 @@ class Box_Syndicate_WpsLaunch_F;
 			};
         class TransportMagazines
         {
-			class 
+			class rhs_30Rnd_545x39_7N10_plum_AK
 			{
 				magazine="rhs_30Rnd_545x39_7N10_plum_AK";
 				count=35;
 			};
-			class 
+			class rhs_30Rnd_545x39_AK_plum_green
 			{
 				magazine="rhs_30Rnd_545x39_AK_plum_green";
 				count=15;
