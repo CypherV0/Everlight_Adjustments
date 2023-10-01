@@ -22,7 +22,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="FT Crate (US/CA)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -36,17 +36,17 @@ class Box_Syndicate_WpsLaunch_F;
 			};
 			class SmokeShell
 			{
-				magazine="SmokeShell";
+				name="SmokeShell";
 				count=5;
 			};
 			class SmokeShellRed
 			{
-				magazine="SmokeShellRed";
+				name="SmokeShellRed";
 				count=5;
 			};
 			class SmokeShellBlue
 			{
-				magazine="SmokeShellBlue";
+				name="SmokeShellBlue";
 				count=5;
 			};
         };
@@ -126,7 +126,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="FT Crate (FAL)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -140,17 +140,17 @@ class Box_Syndicate_WpsLaunch_F;
 			};
 			class SmokeShell
 			{
-				magazine="SmokeShell";
+				name="SmokeShell";
 				count=5;
 			};
 			class SmokeShellRed
 			{
-				magazine="SmokeShellRed";
+				name="SmokeShellRed";
 				count=5;
 			};
 			class SmokeShellBlue
 			{
-				magazine="SmokeShellBlue";
+				name="SmokeShellBlue";
 				count=5;
 			};
         };
@@ -230,7 +230,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="FT Crate (SWAT)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -244,17 +244,17 @@ class Box_Syndicate_WpsLaunch_F;
 			};
 			class SmokeShell
 			{
-				magazine="SmokeShell";
+				name="SmokeShell";
 				count=5;
 			};
 			class SmokeShellRed
 			{
-				magazine="SmokeShellRed";
+				name="SmokeShellRed";
 				count=5;
 			};
 			class SmokeShellBlue
 			{
-				magazine="SmokeShellBlue";
+				name="SmokeShellBlue";
 				count=5;
 			};
         };
@@ -326,7 +326,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="FT Crate (Stealth)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -340,17 +340,17 @@ class Box_Syndicate_WpsLaunch_F;
 			};
 			class SmokeShell
 			{
-				magazine="SmokeShell";
+				name="SmokeShell";
 				count=5;
 			};
 			class SmokeShellRed
 			{
-				magazine="SmokeShellRed";
+				name="SmokeShellRed";
 				count=5;
 			};
 			class SmokeShellBlue
 			{
-				magazine="SmokeShellBlue";
+				name="SmokeShellBlue";
 				count=5;
 			};
         };
@@ -425,7 +425,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="FT Crate (Rangers - SCAR)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -439,17 +439,17 @@ class Box_Syndicate_WpsLaunch_F;
 			};
 			class SmokeShell
 			{
-				magazine="SmokeShell";
+				name="SmokeShell";
 				count=5;
 			};
 			class SmokeShellRed
 			{
-				magazine="SmokeShellRed";
+				name="SmokeShellRed";
 				count=5;
 			};
 			class SmokeShellBlue
 			{
-				magazine="SmokeShellBlue";
+				name="SmokeShellBlue";
 				count=5;
 			};
         };
@@ -526,10 +526,10 @@ class Box_Syndicate_WpsLaunch_F;
         };
         scope=2;
         vehicleclass="EVLT_Fireteam_PMC_ACR_crate";
-        displayName="FT Crate (PMC/EMC)";
+        displayName="FT Crate (PMC)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -543,17 +543,17 @@ class Box_Syndicate_WpsLaunch_F;
 			};
 			class SmokeShell
 			{
-				magazine="SmokeShell";
+				name="SmokeShell";
 				count=5;
 			};
 			class SmokeShellRed
 			{
-				magazine="SmokeShellRed";
+				name="SmokeShellRed";
 				count=5;
 			};
 			class SmokeShellBlue
 			{
-				magazine="SmokeShellBlue";
+				name="SmokeShellBlue";
 				count=5;
 			};
         };
@@ -638,7 +638,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="FT Crate (G36)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -652,17 +652,17 @@ class Box_Syndicate_WpsLaunch_F;
 			};
 			class SmokeShell
 			{
-				magazine="SmokeShell";
+				name="SmokeShell";
 				count=5;
 			};
 			class SmokeShellRed
 			{
-				magazine="SmokeShellRed";
+				name="SmokeShellRed";
 				count=5;
 			};
 			class SmokeShellBlue
 			{
-				magazine="SmokeShellBlue";
+				name="SmokeShellBlue";
 				count=5;
 			};
         };
@@ -742,7 +742,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="FT Crate (CZ-58)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -756,17 +756,17 @@ class Box_Syndicate_WpsLaunch_F;
 			};
 			class SmokeShell
 			{
-				magazine="SmokeShell";
+				name="SmokeShell";
 				count=5;
 			};
 			class SmokeShellRed
 			{
-				magazine="SmokeShellRed";
+				name="SmokeShellRed";
 				count=5;
 			};
 			class SmokeShellBlue
 			{
-				magazine="SmokeShellBlue";
+				name="SmokeShellBlue";
 				count=5;
 			};
         };
@@ -846,7 +846,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="FT Crate (CZ-BREN)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -860,17 +860,17 @@ class Box_Syndicate_WpsLaunch_F;
 			};
 			class SmokeShell
 			{
-				magazine="SmokeShell";
+				name="SmokeShell";
 				count=5;
 			};
 			class SmokeShellRed
 			{
-				magazine="SmokeShellRed";
+				name="SmokeShellRed";
 				count=5;
 			};
 			class SmokeShellBlue
 			{
-				magazine="SmokeShellBlue";
+				name="SmokeShellBlue";
 				count=5;
 			};
         };
@@ -950,7 +950,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="FT Crate (Mid-East Guer)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -964,17 +964,17 @@ class Box_Syndicate_WpsLaunch_F;
 			};
 			class SmokeShell
 			{
-				magazine="SmokeShell";
+				name="SmokeShell";
 				count=5;
 			};
 			class SmokeShellRed
 			{
-				magazine="SmokeShellRed";
+				name="SmokeShellRed";
 				count=5;
 			};
 			class SmokeShellBlue
 			{
-				magazine="SmokeShellBlue";
+				name="SmokeShellBlue";
 				count=5;
 			};
         };
@@ -1039,7 +1039,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="AR Crate (MG36)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="AR_crates";
+		editorSubcategory="AR_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -1090,7 +1090,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="AR Crate (HK416)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="AR_crates";
+		editorSubcategory="AR_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -1141,7 +1141,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="MMG Crate (MG3)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="MMG_crates";
+		editorSubcategory="MMG_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -1192,7 +1192,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="AR Crate (RPK-74)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="AR_crates";
+		editorSubcategory="AR_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -1210,6 +1210,57 @@ class Box_Syndicate_WpsLaunch_F;
 			class rhs_60Rnd_545X39_AK_Green
 			{
 				magazine="rhs_60Rnd_545X39_AK_Green";
+				count=10;
+			};
+			class rhs_mag_rdg2_white
+			{
+				magazine="rhs_mag_rdg2_white";
+				count=5;
+			};
+			class rhs_mag_rgo
+			{
+				magazine="rhs_mag_rgo";
+				count=5;
+			};
+        };
+    };
+	
+	class EVLT_AR_RPK762_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_AR_RPK762_crate";
+        displayName="AR Crate (RPK-7.62)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="AR_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+        };
+        class TransportMagazines
+        {
+			class rhs_75Rnd_762x39mm_tracer
+			{
+				magazine="rhs_75Rnd_762x39mm_tracer";
 				count=10;
 			};
 			class rhs_mag_rdg2_white
@@ -1243,7 +1294,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="HAT Crate (TOW)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="HAT_crates";
+		editorSubcategory="HAT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -1294,7 +1345,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="MAT Crate (MAAWS)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="MAT_crates";
+		editorSubcategory="MAT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -1345,7 +1396,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="HAT Crate (Kornet)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="HAT_crates";
+		editorSubcategory="HAT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -1364,6 +1415,57 @@ class Box_Syndicate_WpsLaunch_F;
 			{
 				magazine="ace_compat_rhs_afrf3_mag_9m1331";
 				count=5;
+			};
+			class rhs_mag_rgo
+			{
+				magazine="rhs_mag_rgo";
+				count=5;
+			};
+			class rhs_mag_rdg2_white
+			{
+				magazine="rhs_mag_rdg2_white";
+				count=5;
+			};
+        };
+    };
+
+	class EVLT_HAT_MetisM_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_HAT_MetisM_crate";
+        displayName="HAT Crate (Metis)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="HAT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+        };
+        class TransportMagazines
+        {
+			class vorona_heat
+			{
+				magazine="vorona_heat";
+				count=10;
 			};
 			class rhs_mag_rgo
 			{
@@ -1396,7 +1498,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="LAT Crate (RPG-7)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="LAT_crates";
+		editorSubcategory="LAT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -1447,7 +1549,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="HAT Crate (Javelin)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="HAT_crates";
+		editorSubcategory="HAT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -1498,7 +1600,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="FT Crate (AK-762)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -1587,7 +1689,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="FT Crate (Finnish Army)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -1676,7 +1778,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="FT Crate (Finnish SF)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -1780,7 +1882,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="FT Crate (TLA)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -1869,7 +1971,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="FT Crate (AK-74 Std)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -1953,7 +2055,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="FT Crate (AK-74 EP)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -2037,7 +2139,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="MMG Crate (M84)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="MMG_crates";
+		editorSubcategory="MMG_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -2088,11 +2190,15 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="Launcher Crate (RPG-75)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="RAT_crates";
+		editorSubcategory="RAT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
         hiddenSelectionsTextures[] = {};
+		class TransportItems
+		{};
+		class TransportMagazines
+		{};
         class TransportWeapons
         {
 			class rhs_weap_rpg75
@@ -2101,6 +2207,98 @@ class Box_Syndicate_WpsLaunch_F;
 				count=2;
 			};
         };
+		class TransportBackpacks
+		{};
+    };
+
+	class EVLT_AAM_Stinger_crate:Box_Syndicate_WpsLaunch_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_AAM_Stinger_crate";
+        displayName="AA Missile Crate (Stinger)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="AAM_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+		class TransportItems
+		{};
+        class TransportWeapons
+        {
+			class rhs_weap_fim92
+			{
+				weapon="rhs_weap_fim92";
+				count=1;
+			};
+        };
+		class TransportMagazines
+		{
+			class rhs_fim92_mag
+			{
+				magazine="rhs_fim92_mag";
+				count=2;
+			};
+		};
+		class TransportBackpacks
+		{};
+    };
+	
+	class EVLT_AAM_Igla_crate:Box_Syndicate_WpsLaunch_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_AAM_Igla_crate";
+        displayName="AA Missile Crate (Igla)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="AAM_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+		class TransportItems
+		{};
+        class TransportWeapons
+        {
+			class rhs_weap_igla
+			{
+				weapon="rhs_weap_igla";
+				count=1;
+			};
+        };
+		class TransportMagazines
+		{
+			class rhs_mag_9k38_rocket
+			{
+				magazine="rhs_mag_9k38_rocket";
+				count=2;
+			};
+		};
+		class TransportBackpacks
+		{};
     };
 	
 	class EVLT_RAT_M72A6_crate:Box_Syndicate_WpsLaunch_F
@@ -2121,11 +2319,15 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="Launcher Crate (M72A6)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="RAT_crates";
+		editorSubcategory="RAT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
         hiddenSelectionsTextures[] = {};
+		class TransportItems
+		{};
+		class TransportMagazines
+		{};
         class TransportWeapons
         {
 			class CUP_launch_M72A6_Special
@@ -2134,6 +2336,8 @@ class Box_Syndicate_WpsLaunch_F;
 				count=2;
 			};
         };
+		class TransportBackpacks
+		{};
     };
 	
 	class EVLT_RAT_M72A7_crate:Box_Syndicate_WpsLaunch_F
@@ -2159,6 +2363,10 @@ class Box_Syndicate_WpsLaunch_F;
         destrType="DestructBuilding";
         armor=50;
         hiddenSelectionsTextures[] = {};
+		class TransportItems
+		{};
+		class TransportMagazines
+		{};
         class TransportWeapons
         {
 			class rhs_weap_m72a7
@@ -2167,6 +2375,8 @@ class Box_Syndicate_WpsLaunch_F;
 				count=2;
 			};
         };
+		class TransportBackpacks
+		{};
     };
 	
 	class EVLT_RAT_M136_crate:Box_Syndicate_WpsLaunch_F
@@ -2187,11 +2397,15 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="Launcher Crate (M136)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="RAT_crates";
+		editorSubcategory="RAT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
         hiddenSelectionsTextures[] = {};
+		class TransportItems
+		{};
+		class TransportMagazines
+		{};
         class TransportWeapons
         {
 			class rhs_weap_M136
@@ -2200,6 +2414,8 @@ class Box_Syndicate_WpsLaunch_F;
 				count=2;
 			};
         };
+		class TransportBackpacks
+		{};
     };
 	
 	class EVLT_MMG_PK_RU_crate:Box_Syndicate_Ammo_F
@@ -2271,7 +2487,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="MMG Crate (M240/M60)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="MMG_crates";
+		editorSubcategory="MMG_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -2322,7 +2538,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="FT Crate (M14)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -2418,10 +2634,10 @@ class Box_Syndicate_WpsLaunch_F;
         };
         scope=2;
         vehicleclass="EVLT_Fireteam_M16_crate";
-        displayName="FT Crate (M16)";
+        displayName="FT Crate (M16 - VN)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -2435,17 +2651,17 @@ class Box_Syndicate_WpsLaunch_F;
 			};
 			class SmokeShell
 			{
-				magazine="SmokeShell";
+				name="SmokeShell";
 				count=5;
 			};
 			class SmokeShellRed
 			{
-				magazine="SmokeShellRed";
+				name="SmokeShellRed";
 				count=5;
 			};
 			class SmokeShellBlue
 			{
-				magazine="SmokeShellBlue";
+				name="SmokeShellBlue";
 				count=5;
 			};
         };
@@ -2517,10 +2733,10 @@ class Box_Syndicate_WpsLaunch_F;
         };
         scope=2;
         vehicleclass="EVLT_Fireteam_M16A2_crate";
-        displayName="FT Crate (M16A2)";
+        displayName="FT Crate (M16A2 - CW)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="FT_crates";
+		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -2534,17 +2750,17 @@ class Box_Syndicate_WpsLaunch_F;
 			};
 			class SmokeShell
 			{
-				magazine="SmokeShell";
+				name="SmokeShell";
 				count=5;
 			};
 			class SmokeShellRed
 			{
-				magazine="SmokeShellRed";
+				name="SmokeShellRed";
 				count=5;
 			};
 			class SmokeShellBlue
 			{
-				magazine="SmokeShellBlue";
+				name="SmokeShellBlue";
 				count=5;
 			};
         };
@@ -2619,6 +2835,7 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="Explosives Crate";
         DLC="Expansion";
         editorCategory="EverlightCrates";
+		editorSubcategory="Other_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -2641,16 +2858,26 @@ class Box_Syndicate_WpsLaunch_F;
 				count=4;
 			};
         };
+		class TransportMagazines
+		{};
+		class TransportWeapons
+		{};
+		class TransportBackpacks
+		{};
     };
 	class EVLT_Medical_crate:ACE_medicalSupplyCrate_advanced
     {
         author="Ferdilanz";
-        mapSize=1.25;
+		class SimpleObject
+		{
+			mapSize=1.25;
+		};
         scope=2;
         vehicleclass="EVLT_Medical_crate";
         displayName="Medical Crate";
         DLC="Expansion";
-        editorCategory="EverlightCrates";
+		editorCategory="EverlightCrates";
+		editorSubcategory="Other_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -2688,5 +2915,11 @@ class Box_Syndicate_WpsLaunch_F;
 				count=10;
 			};
         };
+		class TransportMagazines
+		{};
+		class TransportWeapons
+		{};
+		class TransportBackpacks
+		{};
     };
 };
