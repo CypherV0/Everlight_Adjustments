@@ -10,3 +10,7 @@ class CfgPatches
     authorUrl = "";
   };
 };
+
+#include "script_component.hpp"
+#include "CfgEditorCategories.hpp"
+#include "CfgVehicles.hpp"
