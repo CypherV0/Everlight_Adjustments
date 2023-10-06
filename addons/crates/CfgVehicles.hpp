@@ -2552,17 +2552,17 @@ class Box_Syndicate_WpsLaunch_F;
 			};
 			class SmokeShell
 			{
-				magazine="SmokeShell";
+				name="SmokeShell";
 				count=5;
 			};
 			class SmokeShellRed
 			{
-				magazine="SmokeShellRed";
+				name="SmokeShellRed";
 				count=5;
 			};
 			class SmokeShellBlue
 			{
-				magazine="SmokeShellBlue";
+				name="SmokeShellBlue";
 				count=5;
 			};
         };
