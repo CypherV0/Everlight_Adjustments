@@ -1071,6 +1071,57 @@ class Box_Syndicate_WpsLaunch_F;
 			};
         };
     };
+
+	class EVLT_AR_M249_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_AR_M249_crate";
+        displayName="AR Crate (M249)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+	editorSubcategory="AR_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+        };
+        class TransportMagazines
+        {
+			class rhsusf_200rnd_556x45_mixed_box
+			{
+				magazine="rhsusf_200rnd_556x45_mixed_box";
+				count=10;
+			};
+			class rhs_mag_m67
+			{
+				magazine="rhs_mag_m67";
+				count=5;
+			};
+			class SmokeShell
+			{
+				magazine="SmokeShell";
+				count=5;
+			};
+        };
+    };
 	
 	class EVLT_AR_HK416_crate:Box_Syndicate_Ammo_F
     {
