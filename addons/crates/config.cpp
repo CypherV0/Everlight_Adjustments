@@ -1,3 +1,4 @@
+#include "script_component.hpp"
 class CfgPatches 
 {
     class ADDON
@@ -10,6 +11,6 @@ class CfgPatches
         authorUrl = "";
     };
 };
-#include "script_component.hpp"
+
 #include "CfgEditorCategories.hpp"
 #include "CfgVehicles.hpp"
