@@ -7,7 +7,7 @@ class CfgPatches
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"evlt_main","evlt_medical","A3_Supplies_F_Exp","ace_main","ace_compat_rhs_afrf3","ace_compat_rhs_usf3","ace_compat_rhs_gref3","ace_compat_rhs_saf3","UK3CB_Factions_Weapons","rhssaf_c_weapons","rhsusf_c_weapons","niaweapons_226","UK3CB_Factions_Weapons","rhs_main","rhsusf_main","rhs_c_weapons","rhsusf_c_weapons","rhsgref_c_weapons","cup_weapons_ammunition","cup_weapons_fnfal","cup_weapons_xm8","cup_weapons_m72a6"};
-        author[] = {"Ferdilanz"};
+        author = "Ferdilanz";
         authorUrl = "";
     };
 };
