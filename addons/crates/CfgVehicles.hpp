@@ -3067,7 +3067,7 @@ class Box_Syndicate_WpsLaunch_F;
         {
 			class CUP_IlumFlareWhite_GP25_M
 			{
-				name="CUP_IlumFlareWhite_GP25_MP_white";
+				name="CUP_IlumFlareWhite_GP25_M";
 				count=20;
 			};
 			class CUP_FlareGreen_GP25_M
