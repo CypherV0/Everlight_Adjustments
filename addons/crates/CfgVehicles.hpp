@@ -2843,21 +2843,6 @@ class Box_Syndicate_WpsLaunch_F;
 				magazine="hlc_200Rnd_792x57_M_MG42";
 				count=10;
 			};
-			class rhssaf_mag_brd_m83_white
-			{
-				magazine="rhssaf_mag_brd_m83_white";
-				count=5;
-			};
-			class rhssaf_mag_br_m75
-			{
-				magazine="rhssaf_mag_br_m75";
-				count=5;
-			};
-			class rhssaf_mag_br_m84
-			{
-				magazine="rhssaf_mag_br_m84";
-				count=5;
-			};
         };
     };
 
