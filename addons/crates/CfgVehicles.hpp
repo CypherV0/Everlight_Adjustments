@@ -1428,6 +1428,57 @@ class Box_Syndicate_WpsLaunch_F;
 			};
         };
     };
+
+	class EVLT_MAT_CarlGustaf_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_MAT_CarlGustaf_crate";
+        displayName="MAT Crate (Carl Gustaf)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+	editorSubcategory="MAT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+        };
+        class TransportMagazines
+        {
+			class rhs_mag_maaws_HEAT
+			{
+				magazine="rhs_mag_maaws_HEAT";
+				count=10;
+			};
+			class rhssaf_mag_br_m75
+			{
+				magazine="rhssaf_mag_br_m75";
+				count=5;
+			};
+			class rhssaf_mag_brd_m83_white
+			{
+				magazine="rhssaf_mag_brd_m83_white";
+				count=5;
+			};
+        };
+    };
 	
 	class EVLT_HAT_9M133_crate:Box_Syndicate_Ammo_F
     {
@@ -1717,6 +1768,189 @@ class Box_Syndicate_WpsLaunch_F;
             class rhs_weap_rpg26
             {
                 weapon="rhs_weap_rpg26";
+                count=1;
+            };
+        };
+    };
+	
+	class EVLT_Fireteam_Serbia_Modern_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_Fireteam_Serbia_Modern_crate";
+        displayName="FT Crate (Serbia)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="FT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+        };
+        class TransportMagazines
+        {
+			class rhsgref_30rnd_556x45_m21
+			{
+				magazine="rhsgref_30rnd_556x45_m21";
+				count=35;
+			};
+			class rhsgref_30rnd_556x45_m21_t
+			{
+				magazine="rhsgref_30rnd_556x45_m21_t";
+				count=15;
+			};
+			class rhs_10Rnd_762x54mmR_7N14
+			{
+				magazine="rhs_10Rnd_762x54mmR_7N14";
+				count=10;
+			};
+			class rhsusf_200rnd_556x45_mixed_box
+			{
+				magazine="rhsusf_200rnd_556x45_mixed_box";
+				count=5;
+			};
+			class rhssaf_mag_brd_m83_white
+			{
+				magazine="rhssaf_mag_brd_m83_white";
+				count=5;
+			};
+			class rhssaf_mag_br_m84
+			{
+				magazine="rhssaf_mag_br_m84";
+				count=5;
+			};
+			class rhs_VOG25
+			{
+				magazine="rhs_VOG25";
+				count=10;
+			};
+			class rhs_GRD40_Red
+			{
+				magazine="rhs_GRD40_Red";
+				count=5;
+			};
+			class rhs_GRD40_Green
+			{
+				magazine="rhs_GRD40_Green";
+				count=5;
+			};
+			class rhs_GRD40_White
+			{
+				magazine="rhs_GRD40_White";
+				count=10;
+			};
+        };
+        class TransportWeapons
+        {
+            class rhs_weap_m80
+            {
+                weapon="rhs_weap_m80";
+                count=1;
+            };
+        };
+    };
+	
+	class EVLT_Fireteam_Serboslavia_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_Fireteam_Serboslavia_crate";
+        displayName="FT Crate (Yugo)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="FT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+        };
+        class TransportMagazines
+        {
+			class rhssaf_30Rnd_762x39mm_M67
+			{
+				magazine="rhssaf_30Rnd_762x39mm_M67";
+				count=35;
+			};
+			class rhssaf_30Rnd_762x39mm_M78_tracer
+			{
+				magazine="rhssaf_30Rnd_762x39mm_M78_tracer";
+				count=15;
+			};
+			class rhsgref_10Rnd_792x57_m76
+			{
+				magazine="rhsgref_10Rnd_792x57_m76";
+				count=10;
+			};
+			class rhssaf_mag_brd_m83_white
+			{
+				magazine="rhssaf_mag_brd_m83_white";
+				count=5;
+			};
+			class rhssaf_mag_br_m75
+			{
+				magazine="rhssaf_mag_br_m75";
+				count=5;
+			};
+			class rhs_VOG25
+			{
+				magazine="rhs_VOG25";
+				count=10;
+			};
+			class rhs_GRD40_Red
+			{
+				magazine="rhs_GRD40_Red";
+				count=5;
+			};
+			class rhs_GRD40_Green
+			{
+				magazine="rhs_GRD40_Green";
+				count=5;
+			};
+			class rhs_GRD40_White
+			{
+				magazine="rhs_GRD40_White";
+				count=10;
+			};
+        };
+        class TransportWeapons
+        {
+            class rhs_weap_m80
+            {
+                weapon="rhs_weap_m80";
                 count=1;
             };
         };
@@ -2571,6 +2805,47 @@ class Box_Syndicate_WpsLaunch_F;
         };
     };
 
+	class EVLT_MMG_MG42_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_MMG_MG42_crate";
+        displayName="MMG Crate (MG42)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="MMG_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+        };
+        class TransportMagazines
+        {
+			class hlc_200Rnd_792x57_M_MG42
+			{
+				magazine="hlc_200Rnd_792x57_M_MG42";
+				count=10;
+			};
+        };
+    };
+
     class EVLT_Fireteam_M14_crate:Box_Syndicate_Ammo_F
     {
         author="Ferdilanz";
@@ -2867,6 +3142,113 @@ class Box_Syndicate_WpsLaunch_F;
             };
         };
     };
+	class EVLT_Flare_GP25_crate:Box_Syndicate_Ammo_F
+	{
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_Flare_GP25_crate";
+        displayName="Flare Crate (GP25)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="Other_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+        class TransportItems
+        {
+			class CUP_IlumFlareWhite_GP25_M
+			{
+				name="CUP_IlumFlareWhite_GP25_M";
+				count=20;
+			};
+			class CUP_FlareGreen_GP25_M
+			{
+				name="CUP_FlareGreen_GP25_M";
+				count=10;
+			};
+			class CUP_FlareRed_GP25_M
+			{
+				name="CUP_FlareRed_GP25_M";
+				count=10;
+			};
+			class CUP_FlareYellow_GP25_M
+			{
+				name="CUP_FlareYellow_GP25_M";
+				count=10;
+			};
+		};
+		class TransportMagazines
+		{};
+		class TransportWeapons
+		{};
+		class TransportBackpacks
+		{};
+	};
+    
+	class EVLT_Flare_M203_crate:Box_Syndicate_Ammo_F
+	{
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_Flare_M203_crate";
+        displayName="Flare Crate (M203)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="Other_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+        class TransportItems
+        {
+			class ACE_40mm_Flare_white
+			{
+				name="ACE_40mm_Flare_white";
+				count=20;
+			};
+			class UGL_FlareGreen_F
+			{
+				name="UGL_FlareGreen_F";
+				count=10;
+			};
+			class UGL_FlareRed_F
+			{
+				name="UGL_FlareRed_F";
+				count=10;
+			};
+			class UGL_FlareYellow_F
+			{
+				name="UGL_FlareYellow_F";
+				count=10;
+			};
+		};
+		class TransportMagazines
+		{};
+		class TransportWeapons
+		{};
+		class TransportBackpacks
+		{};
+	};
 
 	class EVLT_Explosives_crate:Box_Syndicate_Ammo_F
     {
