@@ -1428,6 +1428,57 @@ class Box_Syndicate_WpsLaunch_F;
 			};
         };
     };
+
+	class EVLT_MAT_CarlGustaf_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_MAT_CarlGustaf_crate";
+        displayName="MAT Crate (Carl Gustaf)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+	editorSubcategory="MAT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+        };
+        class TransportMagazines
+        {
+			class rhs_mag_maaws_HEAT
+			{
+				magazine="rhs_mag_maaws_HEAT";
+				count=10;
+			};
+			class rhssaf_mag_br_m75
+			{
+				magazine="rhssaf_mag_br_m75";
+				count=5;
+			};
+			class rhssaf_mag_brd_m83_white
+			{
+				magazine="rhssaf_mag_brd_m83_white";
+				count=5;
+			};
+        };
+    };
 	
 	class EVLT_HAT_9M133_crate:Box_Syndicate_Ammo_F
     {
@@ -1765,6 +1816,11 @@ class Box_Syndicate_WpsLaunch_F;
 				magazine="rhsgref_30rnd_556x45_m21_t";
 				count=15;
 			};
+			class rhs_10Rnd_762x54mmR_7N14
+			{
+				magazine="rhs_10Rnd_762x54mmR_7N14";
+				count=10;
+			};
 			class rhsusf_200rnd_556x45_mixed_box
 			{
 				magazine="rhsusf_200rnd_556x45_mixed_box";
@@ -1853,6 +1909,11 @@ class Box_Syndicate_WpsLaunch_F;
 			{
 				magazine="rhssaf_30Rnd_762x39mm_M78_tracer";
 				count=15;
+			};
+			class rhsgref_10Rnd_792x57_m76
+			{
+				magazine="rhsgref_10Rnd_792x57_m76";
+				count=10;
 			};
 			class rhssaf_mag_brd_m83_white
 			{
@@ -2739,6 +2800,62 @@ class Box_Syndicate_WpsLaunch_F;
 			class SmokeShell
 			{
 				magazine="SmokeShell";
+				count=5;
+			};
+        };
+    };
+
+	class EVLT_MMG_MG42_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_MMG_MG42_crate";
+        displayName="MMG Crate (MG42)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="MMG_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+        };
+        class TransportMagazines
+        {
+			class hlc_200Rnd_792x57_M_MG42
+			{
+				magazine="hlc_200Rnd_792x57_M_MG42";
+				count=10;
+			};
+			class rhssaf_mag_brd_m83_white
+			{
+				magazine="rhssaf_mag_brd_m83_white";
+				count=5;
+			};
+			class rhssaf_mag_br_m75
+			{
+				magazine="rhssaf_mag_br_m75";
+				count=5;
+			};
+			class rhssaf_mag_br_m84
+			{
+				magazine="rhssaf_mag_br_m84";
 				count=5;
 			};
         };
