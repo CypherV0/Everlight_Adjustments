@@ -41,3 +41,9 @@ if (isDedicated) then {
 if (GVAR(disableRHSStartUp)) then {
     RHS_ENGINE_STARTUP_OFF = "fuck no";
 };
+
+//Able to pick up crates and turrets under this weight (it's not pounds!)
+ACE_maxWeightCarry = 800;
+
+//Able to jog while carrying crates and turrets under this weight
+ace_dragging_maxWeightCarryRun = 800;
