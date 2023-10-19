@@ -2663,6 +2663,45 @@ class Box_Syndicate_WpsLaunch_F;
 		class TransportBackpacks
 		{};
     };
+
+	class EVLT_RAT_M80_crate:Box_Syndicate_WpsLaunch_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_RAT_M80_crate";
+        displayName="Launcher Crate (M80)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+	editorSubcategory="RAT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+		class TransportItems
+		{};
+		class TransportMagazines
+		{};
+        class TransportWeapons
+        {
+			class rhs_weap_m80
+			{
+				weapon="rhs_weap_m80";
+				count=2;
+			};
+        };
+		class TransportBackpacks
+		{};
+    };
 	
 	class EVLT_RAT_M136_crate:Box_Syndicate_WpsLaunch_F
     {
@@ -3298,6 +3337,40 @@ class Box_Syndicate_WpsLaunch_F;
 		class TransportBackpacks
 		{};
     };
+
+	class EVLT_Empty_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_Empty_crate";
+        displayName="Empty Crate";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+	editorSubcategory="Other_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+	class TransportItems
+	{};
+	class TransportMagazines
+	{};
+        class TransportWeapons
+        {};
+	class TransportBackpacks
+	{};
+    };
+
 	class EVLT_Medical_crate:ACE_medicalSupplyCrate_advanced
     {
         author="Ferdilanz";
