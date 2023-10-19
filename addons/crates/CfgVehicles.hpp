@@ -1057,7 +1057,7 @@ class Box_Syndicate_WpsLaunch_F;
 			class hlc_100rnd_556x45_M_G36
 			{
 				magazine="hlc_100rnd_556x45_M_G36";
-				count=10;
+				count=15;
 			};
 			class rhs_mag_m67
 			{
@@ -1159,7 +1159,7 @@ class Box_Syndicate_WpsLaunch_F;
 			class rhs_mag_100Rnd_556x45_M855A1_cmag_mixed
 			{
 				magazine="rhs_mag_100Rnd_556x45_M855A1_cmag_mixed";
-				count=10;
+				count=15;
 			};
 			class rhs_mag_m67
 			{
@@ -1210,7 +1210,7 @@ class Box_Syndicate_WpsLaunch_F;
 			class UK3CB_MG3_250rnd_762x51_RT
 			{
 				magazine="UK3CB_MG3_250rnd_762x51_RT";
-				count=10;
+				count=8;
 			};
 			class rhs_mag_m67
 			{
@@ -1261,7 +1261,7 @@ class Box_Syndicate_WpsLaunch_F;
 			class rhs_60Rnd_545X39_AK_Green
 			{
 				magazine="rhs_60Rnd_545X39_AK_Green";
-				count=10;
+				count=15;
 			};
 			class rhs_mag_rdg2_white
 			{
@@ -1312,7 +1312,7 @@ class Box_Syndicate_WpsLaunch_F;
 			class rhs_75Rnd_762x39mm_tracer
 			{
 				magazine="rhs_75Rnd_762x39mm_tracer";
-				count=10;
+				count=15;
 			};
 			class rhs_mag_rdg2_white
 			{
@@ -1363,7 +1363,7 @@ class Box_Syndicate_WpsLaunch_F;
 			class ace_compat_rhs_usf3_mag_TOW2A
 			{
 				magazine="ace_compat_rhs_usf3_mag_TOW2A";
-				count=10;
+				count=4;
 			};
 			class rhs_mag_m67
 			{
@@ -1567,7 +1567,7 @@ class Box_Syndicate_WpsLaunch_F;
 			class vorona_heat
 			{
 				magazine="vorona_heat";
-				count=10;
+				count=5;
 			};
 			class rhs_mag_rgo
 			{
@@ -1669,7 +1669,7 @@ class Box_Syndicate_WpsLaunch_F;
 			class rhs_fgm148_magazine_AT
 			{
 				magazine="rhs_fgm148_magazine_AT";
-				count=5;
+				count=3;
 			};
 			class rhs_mag_m67
 			{
@@ -1730,7 +1730,7 @@ class Box_Syndicate_WpsLaunch_F;
 			class rhs_75Rnd_762x39mm_tracer
 			{
 				magazine="rhs_75Rnd_762x39mm_tracer";
-				count=5;
+				count=10;
 			};
 			class rhs_mag_rdg2_white
 			{
@@ -2442,7 +2442,7 @@ class Box_Syndicate_WpsLaunch_F;
 			class rhssaf_250Rnd_762x54R
 			{
 				magazine="rhssaf_250Rnd_762x54R";
-				count=10;
+				count=6;
 			};
 			class SmokeShell
 			{
@@ -2739,7 +2739,7 @@ class Box_Syndicate_WpsLaunch_F;
 			class rhs_100Rnd_762x54mmR_green
 			{
 				magazine="rhs_100Rnd_762x54mmR_green";
-				count=10;
+				count=14;
 			};
 			class rhs_mag_rdg2_white
 			{
@@ -2790,7 +2790,7 @@ class Box_Syndicate_WpsLaunch_F;
 			class rhsusf_100Rnd_762x51_m62_tracer
 			{
 				magazine="rhsusf_100Rnd_762x51_m62_tracer";
-				count=10;
+				count=15;
 			};
 			class rhs_mag_m67
 			{
@@ -2841,7 +2841,7 @@ class Box_Syndicate_WpsLaunch_F;
 			class hlc_200Rnd_792x57_M_MG42
 			{
 				magazine="hlc_200Rnd_792x57_M_MG42";
-				count=10;
+				count=8;
 			};
         };
     };
