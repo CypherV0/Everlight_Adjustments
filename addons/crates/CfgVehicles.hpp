@@ -1,8 +1,12 @@
 class CfgVehicles
 {
-class Box_Syndicate_Ammo_F;
-class ACE_medicalSupplyCrate_advanced;
-class Box_Syndicate_WpsLaunch_F;
+class Box_Syndicate_Ammo_F; //FT crate
+class ACE_medicalSupplyCrate_advanced; //MedCrate
+class Box_Syndicate_WpsLaunch_F; //RAT crate
+// class B_supplyCrate_F; //DoubleFT crate
+// class Box_NATO_AmmoVeh_F; //VehicleService crate 1
+// class B_Slingload_01_Cargo_F //VehicleService crate 2
+// class B_Slingload_01_Ammo_F //Platoon crate
 
     class EVLT_Fireteam_US_crate:Box_Syndicate_Ammo_F
     {
