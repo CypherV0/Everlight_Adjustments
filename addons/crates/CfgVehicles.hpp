@@ -3,7 +3,7 @@ class CfgVehicles
 class Box_Syndicate_Ammo_F; //FT crate
 class ACE_medicalSupplyCrate_advanced; //MedCrate
 class Box_Syndicate_WpsLaunch_F; //RAT crate
-// class B_supplyCrate_F; //DoubleFT crate
+class B_supplyCrate_F; //DoubleFT crate
 // class Box_NATO_AmmoVeh_F; //VehicleService crate 1
 // class B_Slingload_01_Cargo_F //VehicleService crate 2
 // class B_Slingload_01_Ammo_F //Platoon crate
@@ -3357,7 +3357,7 @@ class Box_Syndicate_WpsLaunch_F; //RAT crate
         };
         scope=2;
         vehicleclass="EVLT_Empty_crate";
-        displayName="Empty Crate";
+        displayName="Empty FT Crate";
         DLC="Expansion";
         editorCategory="EverlightCrates";
 	editorSubcategory="Other_crates";
@@ -3433,3 +3433,36 @@ class Box_Syndicate_WpsLaunch_F; //RAT crate
 		{};
     };
 };
+
+	class EVLT_Empty_DoubleFT_crate:B_supplyCrate_F
+	{
+        	author="Ferdilanz";
+        	mapSize=1.25;
+        class SimpleObject
+        	{
+            	eden=1;
+            	animate[]={};
+            	hide[]={};
+            	verticalOffset=0.382;
+            	verticalOffsetWorld=0;
+        	init="''";
+        	};
+        scope=2;
+        vehicleclass="EVLT_Empty_DoubleFT_crate";
+        displayName="Empty Double-FT Crate";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+	editorSubcategory="Other_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+	class TransportItems
+	{};
+	class TransportMagazines
+	{};
+        class TransportWeapons
+        {};
+	class TransportBackpacks
+	{};
+    };
