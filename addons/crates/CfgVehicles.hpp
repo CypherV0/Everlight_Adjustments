@@ -3342,7 +3342,7 @@ class B_supplyCrate_F; //DoubleFT crate
 		{};
     };
 
-	class EVLT_Empty_crate:Box_Syndicate_Ammo_F
+	class EVLT_Empty_FT_crate:Box_Syndicate_Ammo_F
     {
         author="Ferdilanz";
         mapSize=1.25;
@@ -3356,7 +3356,7 @@ class B_supplyCrate_F; //DoubleFT crate
             init="''";
         };
         scope=2;
-        vehicleclass="EVLT_Empty_crate";
+        vehicleclass="EVLT_Empty_FT_crate";
         displayName="Empty FT Crate";
         DLC="Expansion";
         editorCategory="EverlightCrates";
