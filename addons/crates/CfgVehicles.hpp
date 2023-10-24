@@ -4,10 +4,10 @@ class Box_Syndicate_Ammo_F; //FT crate
 class ACE_medicalSupplyCrate_advanced; //MedCrate
 class Box_Syndicate_WpsLaunch_F; //RAT crate
 class B_supplyCrate_F; //DoubleFT crate
-class Box_NATO_AmmoVeh_F; //Vehicle Service crate medium
+// class Box_NATO_AmmoVeh_F; //Vehicle Service crate medium
 // class B_Slingload_01_Cargo_F //Vehicle Service crate large
 // class CargoNet_01_barrels_F //Vehicle Service crate small
-class B_Slingload_01_Ammo_F //Platoon crate
+// class B_Slingload_01_Ammo_F //Platoon crate
 
     class EVLT_Fireteam_US_crate:Box_Syndicate_Ammo_F
     {
@@ -3361,7 +3361,7 @@ class B_Slingload_01_Ammo_F //Platoon crate
         displayName="Empty FT Crate";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="Other_crates";
+	editorSubcategory="Empty_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -3453,7 +3453,7 @@ class B_Slingload_01_Ammo_F //Platoon crate
         displayName="Empty Double-FT Crate";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="Other_crates";
+	editorSubcategory="Empty_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
