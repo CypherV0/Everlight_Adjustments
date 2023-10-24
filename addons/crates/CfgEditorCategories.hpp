@@ -43,4 +43,8 @@ class CfgEditorSubcategories
 	{
 		displayName = "AA Missile Crates";
 	};
+	class Empty_crates
+	{
+		displayName = "Empty Crates"
+	};
 };
