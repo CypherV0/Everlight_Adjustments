@@ -3,11 +3,11 @@ class CfgVehicles
 class Box_Syndicate_Ammo_F; //FT crate
 class ACE_medicalSupplyCrate_advanced; //MedCrate
 class Box_Syndicate_WpsLaunch_F; //RAT crate
-class B_supplyCrate_F; //DoubleFT crate
-// class Box_NATO_AmmoVeh_F; //Vehicle Service crate medium
+// class B_supplyCrate_F; //DoubleFT crate
+class Box_NATO_AmmoVeh_F; //Vehicle Service crate medium
 // class B_Slingload_01_Cargo_F //Vehicle Service crate large
 // class CargoNet_01_barrels_F //Vehicle Service crate small
-// class B_Slingload_01_Ammo_F //Platoon crate
+class B_Slingload_01_Ammo_F //Platoon crate
 
     class EVLT_Fireteam_US_crate:Box_Syndicate_Ammo_F
     {
@@ -3433,9 +3433,8 @@ class B_supplyCrate_F; //DoubleFT crate
 		class TransportBackpacks
 		{};
     };
-};
 
-	class EVLT_Empty_DoubleFT_crate:B_supplyCrate_F
+	class EVLT_Empty_Squad_crate:B_supplyCrate_F
 	{
         	author="Ferdilanz";
         	mapSize=1.25;
@@ -3449,8 +3448,8 @@ class B_supplyCrate_F; //DoubleFT crate
         	init="''";
         	};
         scope=2;
-        vehicleclass="EVLT_Empty_DoubleFT_crate";
-        displayName="Empty Double-FT Crate";
+        vehicleclass="EVLT_Empty_Squad_crate";
+        displayName="Empty Squad Crate";
         DLC="Expansion";
         editorCategory="EverlightCrates";
 	editorSubcategory="Empty_crates";
@@ -3458,6 +3457,17 @@ class B_supplyCrate_F; //DoubleFT crate
         destrType="DestructBuilding";
         armor=50;
         hiddenSelectionsTextures[] = {};
+	GVAR(space) = 8;
+        GVAR(hasCargo) = 1;
+        class ACE_Cargo {
+            /*
+            class Cargo {
+                class ACE_medicalSupplyCrate {
+                    type = "ACE_medicalSupplyCrate";
+                    amount = 1;
+                };
+            };*/
+        };
 	class TransportItems
 	{};
 	class TransportMagazines
@@ -3467,3 +3477,48 @@ class B_supplyCrate_F; //DoubleFT crate
 	class TransportBackpacks
 	{};
     };
+
+	class EVLT_Empty_Platoon_crate:B_Slingload_01_Ammo_F
+	{
+        	author="Ferdilanz";
+        	mapSize=1.25;
+        class SimpleObject
+        	{
+            	eden=1;
+            	animate[]={};
+            	hide[]={};
+            	verticalOffset=0.382;
+            	verticalOffsetWorld=0;
+        	init="''";
+        	};
+        scope=2;
+        vehicleclass="EVLT_Empty_Platoon_crate";
+        displayName="Empty Platoon Crate";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+	editorSubcategory="Empty_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        hiddenSelectionsTextures[] = {};
+	GVAR(space) = 32;
+        GVAR(hasCargo) = 1;
+        class ACE_Cargo {
+            /*
+            class Cargo {
+                class EVLT_Empty_FT_crate {
+                    type = "EVLT_Empty_FT_crate";
+                    amount = 3;
+                };
+            };*/
+        };
+	class TransportItems
+	{};
+	class TransportMagazines
+	{};
+        class TransportWeapons
+        {};
+	class TransportBackpacks
+	{};
+    };
+}; //End of File
