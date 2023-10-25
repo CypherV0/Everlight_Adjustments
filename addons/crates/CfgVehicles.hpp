@@ -3,7 +3,7 @@ class CfgVehicles
 class Box_Syndicate_Ammo_F; //FT crate
 class ACE_medicalSupplyCrate_advanced; //MedCrate
 class Box_Syndicate_WpsLaunch_F; //RAT crate
-// class B_supplyCrate_F; //DoubleFT crate
+class B_supplyCrate_F; //Squad crate
 class Box_NATO_AmmoVeh_F; //Vehicle Service crate medium
 // class B_Slingload_01_Cargo_F //Vehicle Service crate large
 // class CargoNet_01_barrels_F //Vehicle Service crate small
