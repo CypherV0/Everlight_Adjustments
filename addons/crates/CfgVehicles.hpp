@@ -3458,7 +3458,6 @@ class B_Slingload_01_Ammo_F; //Company crate
         destrType="DestructBuilding";
         armor=50;
         hiddenSelectionsTextures[] = {};
-//  BEGIN ACE Logistics Update Content  \\
 	ace_cargo_space = 8; // defines the amount of ACE cargo space in the crate
         ace_cargo_hasCargo = 1; // enables the crate to carry cargo
 	ace_cargo_size = 6;  // Cargo space the object takes
@@ -3473,7 +3472,6 @@ class B_Slingload_01_Ammo_F; //Company crate
                 };
             };*/
         };
-//  END ACE Logistics Update Content  \\
 	class TransportItems
 	{};
 	class TransportMagazines
@@ -3507,7 +3505,6 @@ class B_Slingload_01_Ammo_F; //Company crate
         destrType="DestructBuilding";
         armor=50;
         hiddenSelectionsTextures[] = {};
-//  BEGIN ACE Logistics Update Content  \\
 	ace_cargo_space = 32; // defines the amount of ACE cargo space in the crate
         ace_cargo_hasCargo = 1; // enables the crate to carry cargo
 	ace_cargo_size = 8;  // Cargo space the object takes
@@ -3523,7 +3520,6 @@ class B_Slingload_01_Ammo_F; //Company crate
                 };
             };*/
         };
-//  END ACE Logistics Update Content  \\
 	class TransportItems
 	{};
 	class TransportMagazines
@@ -3556,7 +3552,6 @@ class B_Slingload_01_Ammo_F; //Company crate
         destrType="DestructBuilding";
         armor=50;
         hiddenSelectionsTextures[] = {};
-//  BEGIN ACE Logistics Update Content  \\
 	ace_cargo_space = 52; // defines the amount of ACE cargo space in the crate
         ace_cargo_hasCargo = 1; // enables the crate to carry cargo
 	ace_cargo_size = 20;  // Cargo space the object takes
@@ -3572,7 +3567,6 @@ class B_Slingload_01_Ammo_F; //Company crate
                 };
             };*/
         };
-//  END ACE Logistics Update Content  \\
 	class TransportItems
 	{};
 	class TransportMagazines
@@ -3606,7 +3600,6 @@ class B_Slingload_01_Ammo_F; //Company crate
         destrType="DestructBuilding";
         armor=50;
         hiddenSelectionsTextures[] = {};
-//  BEGIN ACE Logistics Update Content  \\
 	ace_cargo_space = 4; // defines the amount of ACE cargo space in the crate
         ace_cargo_hasCargo = 1; // enables the crate to carry cargo
 	ace_cargo_size = 4;  // Cargo space the object takes
@@ -3631,7 +3624,6 @@ class B_Slingload_01_Ammo_F; //Company crate
             class Cargo {
                 };
             };
-//  END ACE Logistics Update Content  \\
 	class TransportItems
 	{
 		class Toolkit
@@ -3671,7 +3663,6 @@ class B_Slingload_01_Ammo_F; //Company crate
         destrType="DestructBuilding";
         armor=50;
         hiddenSelectionsTextures[] = {};
-//  BEGIN ACE Logistics Update Content  \\
 	ace_cargo_space = 6; // defines the amount of ACE cargo space in the crate
         ace_cargo_hasCargo = 1; // enables the crate to carry cargo
 	ace_cargo_size = 6;  // Cargo space the object takes
@@ -3696,7 +3687,6 @@ class B_Slingload_01_Ammo_F; //Company crate
             class Cargo {
                 };
             };
-// END ACE Logistics Update Content \\
 	class TransportItems
 	{
 		class Toolkit
@@ -3735,7 +3725,6 @@ class B_Slingload_01_Ammo_F; //Company crate
         destrType="DestructBuilding";
         armor=50;
         hiddenSelectionsTextures[] = {};
-// BEGIN ACE Logistics Update Content \\
 	ace_cargo_space = 12; // defines the amount of ACE cargo space in the crate
         ace_cargo_hasCargo = 1; // enables the crate to carry cargo
 	ace_cargo_size = 20;  // Cargo space the object takes
@@ -3760,7 +3749,6 @@ class B_Slingload_01_Ammo_F; //Company crate
             class Cargo {
             }; 
         };
-//  END ACE Logistics Update Content  \\
 	class TransportItems
 	{
  		class Toolkit
