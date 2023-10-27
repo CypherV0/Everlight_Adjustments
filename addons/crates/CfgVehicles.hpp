@@ -5,6 +5,7 @@ class ACE_medicalSupplyCrate_advanced; //MedCrate
 class Box_Syndicate_WpsLaunch_F; //RAT crate
 class B_supplyCrate_F; //Squad crate
 class Box_NATO_AmmoVeh_F; //Vehicle Service crate medium
+class B_cargoNet_01_ammo_f;
 // class B_Slingload_01_Cargo_F; //Vehicle Service crate large
 // class CargoNet_01_barrels_F; //Vehicle Service crate small
 class B_Slingload_01_Ammo_F; //Platoon crate
@@ -3457,8 +3458,13 @@ class B_Slingload_01_Ammo_F; //Platoon crate
         destrType="DestructBuilding";
         armor=50;
         hiddenSelectionsTextures[] = {};
-	GVAR(space) = 8;
-        GVAR(hasCargo) = 1;
+	ace_cargo_space = 8;
+        ace_cargo_hasCargo = 1;
+	ace_cargo_size = 6;  // Cargo space the object takes
+        ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
+        ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
+        ace_cargo_blockUnloadCarry = 1; // Blocks object from being automatically picked up by player on unload
+// START BACK HERE IN THE MORNING
         class ACE_Cargo {
             /*
             class Cargo {
@@ -3478,7 +3484,7 @@ class B_Slingload_01_Ammo_F; //Platoon crate
 	{};
     };
 
-	class EVLT_Empty_Platoon_crate:B_Slingload_01_Ammo_F
+	class EVLT_Empty_Platoon_crate:B_cargoNet_01_ammo_f
 	{
         	author="Ferdilanz";
         	mapSize=1.25;
@@ -3493,7 +3499,7 @@ class B_Slingload_01_Ammo_F; //Platoon crate
         	};
         scope=2;
         vehicleclass="EVLT_Empty_Platoon_crate";
-        displayName="Empty Platoon Crate";
+        displayName="Platoon Crate";
         DLC="Expansion";
         editorCategory="EverlightCrates";
 	editorSubcategory="Empty_crates";
@@ -3501,8 +3507,12 @@ class B_Slingload_01_Ammo_F; //Platoon crate
         destrType="DestructBuilding";
         armor=50;
         hiddenSelectionsTextures[] = {};
-	GVAR(space) = 32;
-        GVAR(hasCargo) = 1;
+	ace_cargo_space = 32;
+        ace_cargo_hasCargo = 1;
+	ace_cargo_size = 8;  // Cargo space the object takes
+        ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
+        ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
+        ace_cargo_blockUnloadCarry = 1; // Blocks object from being automatically picked up by player on unload
         class ACE_Cargo {
             /*
             class Cargo {
