@@ -6,8 +6,8 @@ class Box_Syndicate_WpsLaunch_F; //RAT crate
 class B_supplyCrate_F; //Squad crate
 class Box_NATO_AmmoVeh_F; //Vehicle Service crate medium
 class B_cargoNet_01_ammo_f; // Platoon crate
-class B_Slingload_01_Cargo_F; //Vehicle Service crate large
-class CargoNet_01_barrels_F; //Vehicle Service crate small
+// class B_Slingload_01_Cargo_F; //Vehicle Service crate large
+// class CargoNet_01_barrels_F; //Vehicle Service crate small
 class B_Slingload_01_Ammo_F; //Company crate
 
     class EVLT_Fireteam_US_crate:Box_Syndicate_Ammo_F
@@ -3577,7 +3577,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 	{};
     };
 
-	class EVLT_VehicleServiceSmall_crate:CargoNet_01_barrels_F // not in config.cpp
+	/* class EVLT_VehicleServiceSmall_crate:CargoNet_01_barrels_F // not in config.cpp
 	{
         	author="Ferdilanz";
         	mapSize=1.25;
@@ -3638,7 +3638,7 @@ class B_Slingload_01_Ammo_F; //Company crate
         {};
 	class TransportBackpacks
 	{};
-    };
+    }; */
 
 	class EVLT_VehicleServiceMedium_crate:Box_NATO_AmmoVeh_F
 	{
@@ -3702,7 +3702,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 	class TransportBackpacks
 	{};
     };
-	class EVLT_VehicleServiceLarge_crate:B_Slingload_01_Cargo_F // not in Config.cpp
+	/* class EVLT_VehicleServiceLarge_crate:B_Slingload_01_Cargo_F // not in Config.cpp
 	{
         	author="Ferdilanz";
         	mapSize=1.25;
@@ -3763,5 +3763,5 @@ class B_Slingload_01_Ammo_F; //Company crate
         {};
 	class TransportBackpacks
 	{};
-    };
+    }; */
 }; //End of File
