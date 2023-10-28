@@ -3457,12 +3457,21 @@ class B_Slingload_01_Ammo_F; //Company crate
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        
 	ace_cargo_space = 8; // defines the amount of ACE cargo space in the crate
         ace_cargo_hasCargo = 1; // enables the crate to carry cargo
 	ace_cargo_size = 6;  // Cargo space the object takes
         ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
         ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
+        // Dragging
+        ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
+        ace_dragging_dragPosition[] = {0, 1.5, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
+        ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeight = 1; // Ignore weight limitation for dragging (0-no, 1-yes)
+        // Carrying
+        ace_dragging_canCarry = 0;  // Can be carried (0-no, 1-yes)
+        ace_dragging_carryPosition[] = {0, 1, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1, 1])
+        ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeightCarry = 0; // Ignore weight limitation for carrying (0-no, 1-yes)
         class ACE_Cargo {
             /*
             class Cargo {
@@ -3504,13 +3513,22 @@ class B_Slingload_01_Ammo_F; //Company crate
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        
 	ace_cargo_space = 32; // defines the amount of ACE cargo space in the crate
         ace_cargo_hasCargo = 1; // enables the crate to carry cargo
 	ace_cargo_size = 8;  // Cargo space the object takes
         ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
         ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
         ace_cargo_blockUnloadCarry = 1; // Blocks object from being automatically picked up by player on unload
+        // Dragging
+        ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
+        ace_dragging_dragPosition[] = {0, 1.5, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
+        ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeight = 1; // Ignore weight limitation for dragging (0-no, 1-yes)
+        // Carrying
+        ace_dragging_canCarry = 0;  // Can be carried (0-no, 1-yes)
+        ace_dragging_carryPosition[] = {0, 1, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1, 1])
+        ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeightCarry = 0; // Ignore weight limitation for carrying (0-no, 1-yes)
         class ACE_Cargo {
             /*
             class Cargo {
@@ -3551,13 +3569,22 @@ class B_Slingload_01_Ammo_F; //Company crate
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        
 	ace_cargo_space = 52; // defines the amount of ACE cargo space in the crate
         ace_cargo_hasCargo = 1; // enables the crate to carry cargo
 	ace_cargo_size = 20;  // Cargo space the object takes
         ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
         ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
         ace_cargo_blockUnloadCarry = 1; // Blocks object from being automatically picked up by player on unload
+        // Dragging
+        ace_dragging_canDrag = 0;  // Can be dragged (0-no, 1-yes)
+        ace_dragging_dragPosition[] = {0, 1.5, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
+        ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeight = 0; // Ignore weight limitation for dragging (0-no, 1-yes)
+        // Carrying
+        ace_dragging_canCarry = 0;  // Can be carried (0-no, 1-yes)
+        ace_dragging_carryPosition[] = {0, 1, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1, 1])
+        ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeightCarry = 0; // Ignore weight limitation for carrying (0-no, 1-yes)
         class ACE_Cargo {
             /*
             class Cargo {
