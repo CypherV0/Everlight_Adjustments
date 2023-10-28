@@ -3569,6 +3569,7 @@ class B_Slingload_01_Ammo_F; //Company crate
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
+	ace_rearm_defaultSupply = -1; // set rearm supply the crate can provide
 	ace_cargo_space = 52; // defines the amount of ACE cargo space in the crate
         ace_cargo_hasCargo = 1; // enables the crate to carry cargo
 	ace_cargo_size = 20;  // Cargo space the object takes
