@@ -3521,7 +3521,7 @@ class B_Slingload_01_Ammo_F; //Company crate
         ace_cargo_blockUnloadCarry = 1; // Blocks object from being automatically picked up by player on unload
         // Dragging
         ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
-        ace_dragging_dragPosition[] = {0, 1.5, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
+        ace_dragging_dragPosition[] = {0, 1.8, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
         ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
         ace_dragging_ignoreWeight = 1; // Ignore weight limitation for dragging (0-no, 1-yes)
         // Carrying
@@ -3703,12 +3703,12 @@ class B_Slingload_01_Ammo_F; //Company crate
         // ace_refuel_hooks[] = {{0.0,0.0,0.0},{0.0,0.0,0.0}}; // Nozzle hooks positions/ Zero is default aka hidden at the origin
         // Dragging
         ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
-        ace_dragging_dragPosition[] = {0, 1, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
+        ace_dragging_dragPosition[] = {0, 1.8, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
         ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
         ace_dragging_ignoreWeight = 1; // Ignore weight limitation for dragging (0-no, 1-yes)
         // Carrying
         ace_dragging_canCarry = 0;  // Can be carried (0-no, 1-yes)
-        ace_dragging_carryPosition[] = {0, 1, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1, 1])
+        ace_dragging_carryPosition[] = {0, 2, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1, 1])
         ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
         ace_dragging_ignoreWeightCarry = 0; // Ignore weight limitation for carrying (0-no, 1-yes)
         class ACE_Cargo {
