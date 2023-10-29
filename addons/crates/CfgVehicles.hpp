@@ -986,9 +986,9 @@ class B_Slingload_01_Ammo_F; //Company crate
         };
         class TransportMagazines
         {
-			class uk3cb_no4_enfield_303_10Rnd_magazine
+			class ACE_10Rnd_762x51_Mag_Tracer
 			{
-				magazine="uk3cb_no4_enfield_303_10Rnd_magazine";
+				magazine="ACE_10Rnd_762x51_Mag_Tracer";
 				count=50;
 			};
 			class UK3CB_Sten_34Rnd_Magazine
