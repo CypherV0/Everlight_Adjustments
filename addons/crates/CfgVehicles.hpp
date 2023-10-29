@@ -1,8 +1,14 @@
 class CfgVehicles
 {
-class Box_Syndicate_Ammo_F;
-class ACE_medicalSupplyCrate_advanced;
-class Box_Syndicate_WpsLaunch_F;
+class Box_Syndicate_Ammo_F; //FT crate
+class ACE_medicalSupplyCrate_advanced; //MedCrate
+class Box_Syndicate_WpsLaunch_F; //RAT crate
+class B_supplyCrate_F; //Squad crate
+class Box_NATO_AmmoVeh_F; //Vehicle Service crate medium
+class B_cargoNet_01_ammo_f; // Platoon crate
+// class B_Slingload_01_Cargo_F; //Vehicle Service crate large
+// class CargoNet_01_barrels_F; //Vehicle Service crate small
+class B_Slingload_01_Ammo_F; //Company crate
 
     class EVLT_Fireteam_US_crate:Box_Syndicate_Ammo_F
     {
@@ -26,7 +32,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -130,7 +136,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -234,7 +240,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -330,7 +336,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -429,7 +435,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -533,7 +539,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -642,7 +648,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -746,7 +752,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -850,7 +856,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -954,7 +960,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -980,9 +986,9 @@ class Box_Syndicate_WpsLaunch_F;
         };
         class TransportMagazines
         {
-			class uk3cb_no4_enfield_303_10Rnd_magazine
+			class ACE_10Rnd_762x51_Mag_Tracer
 			{
-				magazine="uk3cb_no4_enfield_303_10Rnd_magazine";
+				magazine="ACE_10Rnd_762x51_Mag_Tracer";
 				count=50;
 			};
 			class UK3CB_Sten_34Rnd_Magazine
@@ -1043,7 +1049,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -1094,7 +1100,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -1145,7 +1151,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -1196,7 +1202,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -1247,7 +1253,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -1298,7 +1304,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -1349,7 +1355,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -1400,7 +1406,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -1451,7 +1457,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -1502,7 +1508,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -1553,7 +1559,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -1604,7 +1610,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -1655,7 +1661,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -1706,7 +1712,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -1795,7 +1801,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -1889,7 +1895,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -1978,7 +1984,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -2067,7 +2073,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -2171,7 +2177,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -2260,7 +2266,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -2344,7 +2350,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -2428,7 +2434,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -2479,7 +2485,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
 		class TransportItems
 		{};
 		class TransportMagazines
@@ -2518,7 +2524,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
 		class TransportItems
 		{};
         class TransportWeapons
@@ -2563,7 +2569,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
 		class TransportItems
 		{};
         class TransportWeapons
@@ -2608,7 +2614,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
 		class TransportItems
 		{};
 		class TransportMagazines
@@ -2647,7 +2653,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
 		class TransportItems
 		{};
 		class TransportMagazines
@@ -2657,6 +2663,45 @@ class Box_Syndicate_WpsLaunch_F;
 			class rhs_weap_m72a7
 			{
 				weapon="rhs_weap_m72a7";
+				count=2;
+			};
+        };
+		class TransportBackpacks
+		{};
+    };
+
+	class EVLT_RAT_M80_crate:Box_Syndicate_WpsLaunch_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_RAT_M80_crate";
+        displayName="Launcher Crate (M80)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+	editorSubcategory="RAT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+		class TransportItems
+		{};
+		class TransportMagazines
+		{};
+        class TransportWeapons
+        {
+			class rhs_weap_m80
+			{
+				weapon="rhs_weap_m80";
 				count=2;
 			};
         };
@@ -2686,7 +2731,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
 		class TransportItems
 		{};
 		class TransportMagazines
@@ -2725,7 +2770,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -2776,7 +2821,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -2827,7 +2872,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -2868,7 +2913,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -2967,7 +3012,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -3066,7 +3111,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -3164,7 +3209,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class CUP_IlumFlareWhite_GP25_M
@@ -3218,7 +3263,7 @@ class Box_Syndicate_WpsLaunch_F;
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_40mm_Flare_white
@@ -3268,11 +3313,11 @@ class Box_Syndicate_WpsLaunch_F;
         displayName="Explosives Crate";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-		editorSubcategory="Other_crates";
+	editorSubcategory="Other_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class rhsusf_m112x4_mag
@@ -3291,13 +3336,14 @@ class Box_Syndicate_WpsLaunch_F;
 				count=4;
 			};
         };
-		class TransportMagazines
-		{};
-		class TransportWeapons
-		{};
-		class TransportBackpacks
-		{};
+	class TransportMagazines
+	{};
+	class TransportWeapons
+	{};
+	class TransportBackpacks
+	{};
     };
+
 	class EVLT_Medical_crate:ACE_medicalSupplyCrate_advanced
     {
         author="Ferdilanz";
@@ -3309,12 +3355,12 @@ class Box_Syndicate_WpsLaunch_F;
         vehicleclass="EVLT_Medical_crate";
         displayName="Medical Crate";
         DLC="Expansion";
-		editorCategory="EverlightCrates";
-		editorSubcategory="Other_crates";
+	editorCategory="EverlightCrates";
+	editorSubcategory="Other_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        hiddenSelectionsTextures[] = {};
+        
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -3355,4 +3401,395 @@ class Box_Syndicate_WpsLaunch_F;
 		class TransportBackpacks
 		{};
     };
-};
+
+	class EVLT_Empty_FT_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_Empty_FT_crate";
+        displayName="Empty FT Crate";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+	editorSubcategory="Logi_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+	class TransportItems
+	{};
+	class TransportMagazines
+	{};
+        class TransportWeapons
+        {};
+	class TransportBackpacks
+	{};
+    };
+
+	class EVLT_Empty_Squad_crate:B_supplyCrate_F
+	{
+        	author="Ferdilanz";
+        	mapSize=1.25;
+        class SimpleObject
+        	{
+            	eden=1;
+            	animate[]={};
+            	hide[]={};
+            	verticalOffset=0.382;
+            	verticalOffsetWorld=0;
+        	init="''";
+        	};
+        scope=2;
+        vehicleclass="EVLT_Empty_Squad_crate";
+        displayName="Squad Crate";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+	editorSubcategory="Logi_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+	ace_cargo_space = 8; // defines the amount of ACE cargo space in the crate
+        ace_cargo_hasCargo = 1; // enables the crate to carry cargo
+	ace_cargo_size = 6;  // Cargo space the object takes
+        ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
+        ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
+        // Dragging
+        ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
+        ace_dragging_dragPosition[] = {0, 1.5, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
+        ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeight = 1; // Ignore weight limitation for dragging (0-no, 1-yes)
+        // Carrying
+        ace_dragging_canCarry = 0;  // Can be carried (0-no, 1-yes)
+        ace_dragging_carryPosition[] = {0, 1, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1, 1])
+        ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeightCarry = 0; // Ignore weight limitation for carrying (0-no, 1-yes)
+        class ACE_Cargo {
+            /*
+            class Cargo {
+                class ACE_medicalSupplyCrate {
+                    type = "ACE_medicalSupplyCrate";
+                    amount = 1;
+                };
+            };*/
+        };
+	class TransportItems
+	{};
+	class TransportMagazines
+	{};
+        class TransportWeapons
+        {};
+	class TransportBackpacks
+	{};
+    };
+
+	class EVLT_Empty_Platoon_crate:B_cargoNet_01_ammo_f
+	{
+        	author="Ferdilanz";
+        	mapSize=1.25;
+        class SimpleObject
+        	{
+            	eden=1;
+            	animate[]={};
+            	hide[]={};
+            	verticalOffset=0.382;
+            	verticalOffsetWorld=0;
+        	init="''";
+        	};
+        scope=2;
+        vehicleclass="EVLT_Empty_Platoon_crate";
+        displayName="Platoon Crate";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+	editorSubcategory="Logi_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+	ace_cargo_space = 32; // defines the amount of ACE cargo space in the crate
+        ace_cargo_hasCargo = 1; // enables the crate to carry cargo
+	ace_cargo_size = 8;  // Cargo space the object takes
+        ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
+        ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
+        ace_cargo_blockUnloadCarry = 1; // Blocks object from being automatically picked up by player on unload
+        // Dragging
+        ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
+        ace_dragging_dragPosition[] = {0, 1.8, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
+        ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeight = 1; // Ignore weight limitation for dragging (0-no, 1-yes)
+        // Carrying
+        ace_dragging_canCarry = 0;  // Can be carried (0-no, 1-yes)
+        ace_dragging_carryPosition[] = {0, 1, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1, 1])
+        ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeightCarry = 0; // Ignore weight limitation for carrying (0-no, 1-yes)
+        class ACE_Cargo {
+            /*
+            class Cargo {
+                class EVLT_Empty_FT_crate {
+                    type = "EVLT_Empty_FT_crate";
+                    amount = 3;
+                };
+            };*/
+        };
+	class TransportItems
+	{};
+	class TransportMagazines
+	{};
+        class TransportWeapons
+        {};
+	class TransportBackpacks
+	{};
+    };
+	class EVLT_Empty_Company_crate:B_Slingload_01_Ammo_F
+	{
+        	author="Ferdilanz";
+        	mapSize=1.25;
+        class SimpleObject
+        	{
+            	eden=1;
+            	animate[]={};
+            	hide[]={};
+            	verticalOffset=0.382;
+            	verticalOffsetWorld=0;
+        	init="''";
+        	};
+        scope=2;
+        vehicleclass="EVLT_Empty_Company_crate";
+        displayName="Company Crate";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+	editorSubcategory="Logi_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+	ace_rearm_defaultSupply = -1; // set rearm supply the crate can provide
+	ace_cargo_space = 52; // defines the amount of ACE cargo space in the crate
+        ace_cargo_hasCargo = 1; // enables the crate to carry cargo
+	ace_cargo_size = 20;  // Cargo space the object takes
+        ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
+        ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
+        ace_cargo_blockUnloadCarry = 1; // Blocks object from being automatically picked up by player on unload
+        // Dragging
+        ace_dragging_canDrag = 0;  // Can be dragged (0-no, 1-yes)
+        ace_dragging_dragPosition[] = {0, 1.5, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
+        ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeight = 0; // Ignore weight limitation for dragging (0-no, 1-yes)
+        // Carrying
+        ace_dragging_canCarry = 0;  // Can be carried (0-no, 1-yes)
+        ace_dragging_carryPosition[] = {0, 1, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1, 1])
+        ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeightCarry = 0; // Ignore weight limitation for carrying (0-no, 1-yes)
+        class ACE_Cargo {
+            /*
+            class Cargo {
+                class EVLT_Empty_FT_crate {
+                    type = "EVLT_Empty_FT_crate";
+                    amount = 3;
+                };
+            };*/
+        };
+	class TransportItems
+	{};
+	class TransportMagazines
+	{};
+        class TransportWeapons
+        {};
+	class TransportBackpacks
+	{};
+    };
+
+	/* class EVLT_VehicleServiceSmall_crate:CargoNet_01_barrels_F // not in config.cpp
+	{
+        	author="Ferdilanz";
+        	mapSize=1.25;
+        class SimpleObject
+        	{
+            	eden=1;
+            	animate[]={};
+            	hide[]={};
+            	verticalOffset=0.382;
+            	verticalOffsetWorld=0;
+        	init="''";
+        	};
+        scope=2;
+        vehicleclass="EVLT_VehicleServiceSmall_crate";
+        displayName="Vehicle Service Crate (Small)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+	editorSubcategory="Logi_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+	ace_cargo_space = 4; // defines the amount of ACE cargo space in the crate
+        ace_cargo_hasCargo = 1; // enables the crate to carry cargo
+	ace_cargo_size = 4;  // Cargo space the object takes
+        ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
+        ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
+        ace_cargo_blockUnloadCarry = 1; // Blocks object from being automatically picked up by player on unload
+	ace_repair_canRepair = 1; // Make repair vehicle
+	ace_rearm_defaultSupply = 2000; // set rearm supply the crate can provide
+	ace_refuel_fuelCargo = 500; // Maximum fuel cargo amount (in liters)
+        // ace_refuel_hooks[] = {{0.0,0.0,0.0},{0.0,0.0,0.0}}; // Nozzle hooks positions/ Zero is default aka hidden at the origin
+        // Dragging
+        ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
+        ace_dragging_dragPosition[] = {0, 1, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
+        ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeight = 1; // Ignore weight limitation for dragging (0-no, 1-yes)
+        // Carrying
+        ace_dragging_canCarry = 1;  // Can be carried (0-no, 1-yes)
+        ace_dragging_carryPosition[] = {0, 1, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1, 1])
+        ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeightCarry = 0; // Ignore weight limitation for carrying (0-no, 1-yes)
+        class ACE_Cargo {
+            class Cargo {
+                };
+            };
+	class TransportItems
+	{
+		class Toolkit
+		{
+			name="Toolkit";
+			count=1;
+		};
+	};
+	class TransportMagazines
+	{};
+        class TransportWeapons
+        {};
+	class TransportBackpacks
+	{};
+    }; */
+
+	class EVLT_VehicleServiceMedium_crate:Box_NATO_AmmoVeh_F
+	{
+        	author="Ferdilanz";
+        	mapSize=1.25;
+        class SimpleObject
+        	{
+            	eden=1;
+            	animate[]={};
+            	hide[]={};
+            	verticalOffset=0.382;
+            	verticalOffsetWorld=0;
+        	init="''";
+        	};
+        scope=2;
+        vehicleclass="EVLT_VehicleServiceMedium_crate";
+        displayName="Vehicle Service Crate";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+	editorSubcategory="Logi_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+	ace_cargo_space = 6; // defines the amount of ACE cargo space in the crate
+        ace_cargo_hasCargo = 1; // enables the crate to carry cargo
+	ace_cargo_size = 6;  // Cargo space the object takes
+        ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
+        ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
+        ace_cargo_blockUnloadCarry = 1; // Blocks object from being automatically picked up by player on unload
+	ace_repair_canRepair = 1; // Make repair vehicle
+	ace_rearm_defaultSupply = 5000; // set rearm supply the crate can provide
+	ace_refuel_fuelCargo = -10; // Maximum fuel cargo amount (in liters)
+        // ace_refuel_hooks[] = {{0.0,0.0,0.0},{0.0,0.0,0.0}}; // Nozzle hooks positions/ Zero is default aka hidden at the origin
+        // Dragging
+        ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
+        ace_dragging_dragPosition[] = {0, 1.8, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
+        ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeight = 1; // Ignore weight limitation for dragging (0-no, 1-yes)
+        // Carrying
+        ace_dragging_canCarry = 0;  // Can be carried (0-no, 1-yes)
+        ace_dragging_carryPosition[] = {0, 2, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1, 1])
+        ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeightCarry = 0; // Ignore weight limitation for carrying (0-no, 1-yes)
+        class ACE_Cargo {
+            class Cargo {
+                };
+            };
+	class TransportItems
+	{
+		class Toolkit
+		{
+			name="Toolkit";
+			count=1;
+		};
+	};
+	class TransportMagazines
+	{};
+        class TransportWeapons
+        {};
+	class TransportBackpacks
+	{};
+    };
+	/* class EVLT_VehicleServiceLarge_crate:B_Slingload_01_Cargo_F // not in Config.cpp
+	{
+        	author="Ferdilanz";
+        	mapSize=1.25;
+        class SimpleObject
+        	{
+            	eden=1;
+            	animate[]={};
+            	hide[]={};
+            	verticalOffset=0.382;
+            	verticalOffsetWorld=0;
+        	init="''";
+        	};
+        scope=2;
+        vehicleclass="EVLT_VehicleServiceLarge_crate";
+        displayName="Vehicle Service Crate (Large)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+	editorSubcategory="Logi_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+	ace_cargo_space = 12; // defines the amount of ACE cargo space in the crate
+        ace_cargo_hasCargo = 1; // enables the crate to carry cargo
+	ace_cargo_size = 20;  // Cargo space the object takes
+        ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
+        ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
+        ace_cargo_blockUnloadCarry = 1; // Blocks object from being automatically picked up by player on unload
+	ace_repair_canRepair = 1; // Make repair vehicle
+	ace_rearm_defaultSupply = 10000; // set rearm supply the crate can provide
+	ace_refuel_fuelCargo = -10; // Maximum fuel cargo amount (in liters)
+        // ace_refuel_hooks[] = {{0.0,0.0,0.0},{0.0,0.0,0.0}}; // Nozzle hooks positions/ Zero is default aka hidden at the origin
+        // Dragging
+        ace_dragging_canDrag = 0;  // Can be dragged (0-no, 1-yes)
+        ace_dragging_dragPosition[] = {0, 1, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1.5, 0])
+        ace_dragging_dragDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeight = 1; // Ignore weight limitation for dragging (0-no, 1-yes)
+        // Carrying
+        ace_dragging_canCarry = 0;  // Can be carried (0-no, 1-yes)
+        ace_dragging_carryPosition[] = {0, 1, 0};  // Offset of the model from the body while dragging (same as attachTo) (default: [0, 1, 1])
+        ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo) (default: 0)
+        ace_dragging_ignoreWeightCarry = 0; // Ignore weight limitation for carrying (0-no, 1-yes)
+        class ACE_Cargo {
+            class Cargo {
+            }; 
+        };
+	class TransportItems
+	{
+ 		class Toolkit
+		{
+			name="Toolkit";
+			count=1;
+		};
+	};
+	class TransportMagazines
+	{};
+        class TransportWeapons
+        {};
+	class TransportBackpacks
+	{};
+    }; */
+}; //End of File

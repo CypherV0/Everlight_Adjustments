@@ -43,4 +43,8 @@ class CfgEditorSubcategories
 	{
 		displayName = "AA Missile Crates";
 	};
+	class Logi_crates
+	{
+		displayName = "Logistics Crates";
+	};
 };
