@@ -813,9 +813,9 @@ class B_Slingload_01_Ammo_F; //Company crate
 				magazine="ACE_40mm_Flare_white";
 				count=10;
 			};
-			class rhs_mag_m67
+			class rhs_mag_f1
 			{
-				magazine="rhs_mag_m67";
+				magazine="rhs_mag_f1";
 				count=5;
 			};
 			class rhs_mag_M433_HEDP
