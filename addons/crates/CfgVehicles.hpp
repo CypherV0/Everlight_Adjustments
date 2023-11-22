@@ -10,7 +10,7 @@ class B_cargoNet_01_ammo_f; // Platoon crate
 // class CargoNet_01_barrels_F; //Vehicle Service crate small
 class B_Slingload_01_Ammo_F; //Company crate
 
-    class EVLT_Fireteam_US_crate:Box_Syndicate_Ammo_F
+    class EVLT_Fireteam_STANAG_crate:Box_Syndicate_Ammo_F
     {
         author="Ferdilanz";
         mapSize=1.25;
@@ -24,8 +24,8 @@ class B_Slingload_01_Ammo_F; //Company crate
             init="''";
         };
         scope=2;
-        vehicleclass="EVLT_Fireteam_US_crate";
-        displayName="FT Crate (US/CA)";
+        vehicleclass="EVLT_Fireteam_STANAG_crate";
+        displayName="FT Crate (STANAG)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
 		editorSubcategory="FT_crates";
@@ -104,14 +104,8 @@ class B_Slingload_01_Ammo_F; //Company crate
 				count=10;
 			};
         };
-        class TransportWeapons
-        {
-            class rhs_weap_M136
-            {
-                weapon="rhs_weap_M136";
-                count=1;
-            };
-        };
+		class transportWeapons
+		{};
     };
 	
     class EVLT_Fireteam_FAL_crate:Box_Syndicate_Ammo_F
@@ -208,14 +202,8 @@ class B_Slingload_01_Ammo_F; //Company crate
 				count=10;
 			};
         };
-        class TransportWeapons
-        {
-            class rhs_weap_M136
-            {
-                weapon="rhs_weap_M136";
-                count=1;
-            };
-        };
+		class transportWeapons
+		{};
     };
 	
     class EVLT_Fireteam_SWAT_crate:Box_Syndicate_Ammo_F
@@ -313,8 +301,8 @@ class B_Slingload_01_Ammo_F; //Company crate
 			};
         };
     };
-	
-    class EVLT_Fireteam_Stealth_crate:Box_Syndicate_Ammo_F
+
+	class EVLT_Fireteam_M16_crate:Box_Syndicate_Ammo_F
     {
         author="Ferdilanz";
         mapSize=1.25;
@@ -328,15 +316,15 @@ class B_Slingload_01_Ammo_F; //Company crate
             init="''";
         };
         scope=2;
-        vehicleclass="EVLT_Fireteam_Stealth_crate";
-        displayName="FT Crate (Stealth)";
+        vehicleclass="EVLT_Fireteam_M16_crate";
+        displayName="FT Crate (Cold War)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
 		editorSubcategory="FT_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        
+
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -362,14 +350,14 @@ class B_Slingload_01_Ammo_F; //Company crate
         };
         class TransportMagazines
         {
-			class hlc_30Rnd_9x19_SD_MP5
+			class rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red
 			{
-				magazine="hlc_30Rnd_9x19_SD_MP5";
-				count=35;
+				magazine="rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+				count=30;
 			};
-			class rhsusf_200rnd_556x45_mixed_box
+			class rhsusf_100Rnd_762x51_m62_tracer
 			{
-				magazine="rhsusf_200rnd_556x45_mixed_box";
+				magazine="rhsusf_100Rnd_762x51_m62_tracer";
 				count=5;
 			};
 			class 1Rnd_Smoke_Grenade_shell
@@ -404,13 +392,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			};
         };
         class TransportWeapons
-        {
-            class rhs_weap_M136
-            {
-                weapon="rhs_weap_M136";
-                count=1;
-            };
-        };
+        {};
     };
 	
     class EVLT_Fireteam_Rangers_SCAR_crate:Box_Syndicate_Ammo_F
@@ -506,14 +488,6 @@ class B_Slingload_01_Ammo_F; //Company crate
 				magazine="rhs_mag_M433_HEDP";
 				count=10;
 			};
-        };
-        class TransportWeapons
-        {
-            class rhs_weap_M136
-            {
-                weapon="rhs_weap_M136";
-                count=1;
-            };
         };
     };
 	
@@ -616,14 +590,6 @@ class B_Slingload_01_Ammo_F; //Company crate
 				count=10;
 			};
         };
-        class TransportWeapons
-        {
-            class rhs_weap_M136
-            {
-                weapon="rhs_weap_M136";
-                count=1;
-            };
-        };
     };
 	
 	class EVLT_Fireteam_GER_crate:Box_Syndicate_Ammo_F
@@ -720,14 +686,8 @@ class B_Slingload_01_Ammo_F; //Company crate
 				count=10;
 			};
         };
-        class TransportWeapons
-        {
-            class rhs_weap_M136
-            {
-                weapon="rhs_weap_M136";
-                count=1;
-            };
-        };
+		class transportWeapons
+		{};
     };
 
     class EVLT_Fireteam_CZ_VZ58_crate:Box_Syndicate_Ammo_F
@@ -813,9 +773,9 @@ class B_Slingload_01_Ammo_F; //Company crate
 				magazine="ACE_40mm_Flare_white";
 				count=10;
 			};
-			class rhs_mag_m67
+			class rhs_mag_f1
 			{
-				magazine="rhs_mag_m67";
+				magazine="rhs_mag_f1";
 				count=5;
 			};
 			class rhs_mag_M433_HEDP
@@ -824,119 +784,10 @@ class B_Slingload_01_Ammo_F; //Company crate
 				count=10;
 			};
         };
-        class TransportWeapons
-        {
-            class rhs_weap_rpg75
-            {
-                weapon="rhs_weap_rpg75";
-                count=1;
-            };
-        };
+		class transportWeapons
+		{};
     };
-	
-    class EVLT_Fireteam_CZ_BREN_crate:Box_Syndicate_Ammo_F
-    {
-        author="Ferdilanz";
-        mapSize=1.25;
-        class SimpleObject
-        {
-            eden=1;
-            animate[]={};
-            hide[]={};
-            verticalOffset=0.382;
-            verticalOffsetWorld=0;
-            init="''";
-        };
-        scope=2;
-        vehicleclass="EVLT_Fireteam_CZ_BREN_crate";
-        displayName="FT Crate (CZ-BREN)";
-        DLC="Expansion";
-        editorCategory="EverlightCrates";
-		editorSubcategory="FT_crates";
-        maximumLoad=10000;
-        destrType="DestructBuilding";
-        armor=50;
-        
-        class TransportItems
-        {
-			class ACE_fieldDressing
-			{
-				name="ACE_fieldDressing";
-				count=10;
-			};
-			class SmokeShell
-			{
-				name="SmokeShell";
-				count=5;
-			};
-			class SmokeShellRed
-			{
-				name="SmokeShellRed";
-				count=5;
-			};
-			class SmokeShellBlue
-			{
-				name="SmokeShellBlue";
-				count=5;
-			};
-        };
-        class TransportMagazines
-        {
-			class CUP_30Rnd_556x45_XM8
-			{
-				magazine="CUP_30Rnd_556x45_XM8";
-				count=35;
-			};
-			class CUP_30Rnd_TE1_Green_Tracer_556x45_XM8
-			{
-				magazine="CUP_30Rnd_TE1_Green_Tracer_556x45_XM8";
-				count=15;
-			};
-			class 150Rnd_762x51_Box_Tracer
-			{
-				magazine="150Rnd_762x51_Box_Tracer";
-				count=5;
-			};
-			class 1Rnd_Smoke_Grenade_shell
-			{
-				magazine="1Rnd_Smoke_Grenade_shell";
-				count=5;
-			};
-			class 1Rnd_SmokeRed_Grenade_shell
-			{
-				magazine="1Rnd_SmokeRed_Grenade_shell";
-				count=5;
-			};
-			class 1Rnd_SmokeBlue_Grenade_shell
-			{
-				magazine="1Rnd_SmokeBlue_Grenade_shell";
-				count=5;
-			};
-			class ACE_40mm_Flare_white
-			{
-				magazine="ACE_40mm_Flare_white";
-				count=10;
-			};
-			class rhs_mag_m67
-			{
-				magazine="rhs_mag_m67";
-				count=5;
-			};
-			class rhs_mag_M433_HEDP
-			{
-				magazine="rhs_mag_M433_HEDP";
-				count=10;
-			};
-        };
-        class TransportWeapons
-        {
-            class rhs_weap_M136
-            {
-                weapon="rhs_weap_M136";
-                count=1;
-            };
-        };
-    };
+
 	
     class EVLT_Fireteam_ME_Guer_crate:Box_Syndicate_Ammo_F
     {
@@ -1017,14 +868,8 @@ class B_Slingload_01_Ammo_F; //Company crate
 				count=10;
 			};
         };
-        class TransportWeapons
-        {
-            class rhs_weap_rpg75
-            {
-                weapon="rhs_weap_rpg75";
-                count=1;
-            };
-        };
+		class transportWeapons
+		{};
     };
 
 	class EVLT_AR_MG36_crate:Box_Syndicate_Ammo_F
@@ -1096,7 +941,7 @@ class B_Slingload_01_Ammo_F; //Company crate
         displayName="AR Crate (M249)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="AR_crates";
+		editorSubcategory="AR_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
@@ -1769,14 +1614,8 @@ class B_Slingload_01_Ammo_F; //Company crate
 				count=10;
 			};
         };
-        class TransportWeapons
-        {
-            class rhs_weap_rpg26
-            {
-                weapon="rhs_weap_rpg26";
-                count=1;
-            };
-        };
+        class transportWeapons
+		{};
     };
 	
 	class EVLT_Fireteam_Serbia_Modern_crate:Box_Syndicate_Ammo_F
@@ -1863,14 +1702,8 @@ class B_Slingload_01_Ammo_F; //Company crate
 				count=10;
 			};
         };
-        class TransportWeapons
-        {
-            class rhs_weap_m80
-            {
-                weapon="rhs_weap_m80";
-                count=1;
-            };
-        };
+        class transportWeapons
+		{};
     };
 	
 	class EVLT_Fireteam_Serboslavia_crate:Box_Syndicate_Ammo_F
@@ -1953,16 +1786,10 @@ class B_Slingload_01_Ammo_F; //Company crate
 			};
         };
         class TransportWeapons
-        {
-            class rhs_weap_m80
-            {
-                weapon="rhs_weap_m80";
-                count=1;
-            };
-        };
+        {};
     };
 	
-	class EVLT_Fireteam_FinlandArmy_AK103_crate:Box_Syndicate_Ammo_F
+	class EVLT_Fireteam_FinlandArmy_crate:Box_Syndicate_Ammo_F
     {
         author="Ferdilanz";
         mapSize=1.25;
@@ -1976,7 +1803,7 @@ class B_Slingload_01_Ammo_F; //Company crate
             init="''";
         };
         scope=2;
-        vehicleclass="EVLT_Fireteam_FinlandArmy_AK103_crate";
+        vehicleclass="EVLT_Fireteam_FinlandArmy_crate";
         displayName="FT Crate (Finnish Army)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
@@ -2042,16 +1869,10 @@ class B_Slingload_01_Ammo_F; //Company crate
 			};
         };
         class TransportWeapons
-        {
-            class rhs_weap_m72a7
-            {
-                weapon="rhs_weap_m72a7";
-                count=1;
-            };
-        };
+        {};
     };
 	
-    class EVLT_Fireteam_FinlandSF_Mk16_crate:Box_Syndicate_Ammo_F
+	class EVLT_Fireteam_AK74_crate:Box_Syndicate_Ammo_F
     {
         author="Ferdilanz";
         mapSize=1.25;
@@ -2065,285 +1886,8 @@ class B_Slingload_01_Ammo_F; //Company crate
             init="''";
         };
         scope=2;
-        vehicleclass="EVLT_Fireteam_FinlandSF_Mk16_crate";
-        displayName="FT Crate (Finnish SF)";
-        DLC="Expansion";
-        editorCategory="EverlightCrates";
-		editorSubcategory="FT_crates";
-        maximumLoad=10000;
-        destrType="DestructBuilding";
-        armor=50;
-        
-        class TransportItems
-        {
-			class ACE_fieldDressing
-			{
-				name="ACE_fieldDressing";
-				count=10;
-			};
-			class SmokeShell
-			{
-				name="SmokeShell";
-				count=5;
-			};
-			class SmokeShellRed
-			{
-				name="SmokeShellRed";
-				count=5;
-			};
-			class SmokeShellBlue
-			{
-				name="SmokeShellBlue";
-				count=5;
-			};
-        };
-        class TransportMagazines
-        {
-			class rhs_mag_30Rnd_556x45_M855A1_Stanag
-			{
-				magazine="rhs_mag_30Rnd_556x45_M855A1_Stanag";
-				count=35;
-			};
-			class rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_red
-			{
-				magazine="rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_red";
-				count=15;
-			};
-			class rhsusf_200rnd_556x45_mixed_box
-			{
-				magazine="rhsusf_200rnd_556x45_mixed_box";
-				count=5;
-			};
-			class 1Rnd_Smoke_Grenade_shell
-			{
-				magazine="1Rnd_Smoke_Grenade_shell";
-				count=5;
-			};
-			class 1Rnd_SmokeRed_Grenade_shell
-			{
-				magazine="1Rnd_SmokeRed_Grenade_shell";
-				count=5;
-			};
-			class 1Rnd_SmokeBlue_Grenade_shell
-			{
-				magazine="1Rnd_SmokeBlue_Grenade_shell";
-				count=5;
-			};
-			class ACE_40mm_Flare_white
-			{
-				magazine="ACE_40mm_Flare_white";
-				count=10;
-			};
-			class rhs_mag_m67
-			{
-				magazine="rhs_mag_m67";
-				count=5;
-			};
-			class rhs_mag_M433_HEDP
-			{
-				magazine="rhs_mag_M433_HEDP";
-				count=10;
-			};
-        };
-        class TransportWeapons
-        {
-            class rhs_weap_m72a7
-            {
-                weapon="rhs_weap_m72a7";
-                count=1;
-            };
-        };
-    };
-	
-	class EVLT_Fireteam_TLA_crate:Box_Syndicate_Ammo_F
-    {
-        author="Ferdilanz";
-        mapSize=1.25;
-        class SimpleObject
-        {
-            eden=1;
-            animate[]={};
-            hide[]={};
-            verticalOffset=0.382;
-            verticalOffsetWorld=0;
-            init="''";
-        };
-        scope=2;
-        vehicleclass="EVLT_Fireteam_TLA_crate";
-        displayName="FT Crate (TLA)";
-        DLC="Expansion";
-        editorCategory="EverlightCrates";
-		editorSubcategory="FT_crates";
-        maximumLoad=10000;
-        destrType="DestructBuilding";
-        armor=50;
-        
-        class TransportItems
-        {
-			class ACE_fieldDressing
-			{
-				name="ACE_fieldDressing";
-				count=10;
-			};
-        };
-        class TransportMagazines
-        {
-			class rhs_30Rnd_762x39mm_tracer
-			{
-				magazine="rhs_30Rnd_762x39mm_tracer";
-				count=35;
-			};
-			class rhs_75Rnd_762x39mm_tracer
-			{
-				magazine="rhs_75Rnd_762x39mm_tracer";
-				count=10;
-			};
-			class rhsgref_5Rnd_762x54_m38
-			{
-				magazine="rhsgref_5Rnd_762x54_m38";
-				count=10;
-			};
-			class rhs_mag_rdg2_white
-			{
-				magazine="rhs_mag_rdg2_white";
-				count=5;
-			};
-			class rhs_mag_rgo
-			{
-				magazine="rhs_mag_rgo";
-				count=5;
-			};
-			class rhs_VOG25
-			{
-				magazine="rhs_VOG25";
-				count=10;
-			};
-			class rhs_GRD40_Red
-			{
-				magazine="rhs_GRD40_Red";
-				count=5;
-			};
-			class rhs_GRD40_Green
-			{
-				magazine="rhs_GRD40_Green";
-				count=5;
-			};
-			class rhs_GRD40_White
-			{
-				magazine="rhs_GRD40_White";
-				count=10;
-			};
-        };
-        class TransportWeapons
-        {
-            class rhs_weap_rpg26
-            {
-                weapon="rhs_weap_rpg26";
-                count=1;
-            };
-        };
-    };
-
-	class EVLT_Fireteam_AK74_std_crate:Box_Syndicate_Ammo_F
-    {
-        author="Ferdilanz";
-        mapSize=1.25;
-        class SimpleObject
-        {
-            eden=1;
-            animate[]={};
-            hide[]={};
-            verticalOffset=0.382;
-            verticalOffsetWorld=0;
-            init="''";
-        };
-        scope=2;
-        vehicleclass="EVLT_Fireteam_AK74_std_crate";
-        displayName="FT Crate (AK-74 Std)";
-        DLC="Expansion";
-        editorCategory="EverlightCrates";
-		editorSubcategory="FT_crates";
-        maximumLoad=10000;
-        destrType="DestructBuilding";
-        armor=50;
-        
-        class TransportItems
-        {
-			class ACE_fieldDressing
-			{
-				name="ACE_fieldDressing";
-				count=10;
-			};
-        };
-        class TransportMagazines
-        {
-			class rhs_30Rnd_545x39_7N6M_plum_AK
-			{
-				magazine="rhs_30Rnd_545x39_7N6M_plum_AK";
-				count=35;
-			};
-			class rhs_30Rnd_545x39_AK_plum_green
-			{
-				magazine="rhs_30Rnd_545x39_AK_plum_green";
-				count=15;
-			};
-			class rhs_mag_rdg2_white
-			{
-				magazine="rhs_mag_rdg2_white";
-				count=5;
-			};
-			class rhs_mag_rgo
-			{
-				magazine="rhs_mag_rgo";
-				count=5;
-			};
-			class rhs_VOG25
-			{
-				magazine="rhs_VOG25";
-				count=10;
-			};
-			class rhs_GRD40_Red
-			{
-				magazine="rhs_GRD40_Red";
-				count=5;
-			};
-			class rhs_GRD40_Green
-			{
-				magazine="rhs_GRD40_Green";
-				count=5;
-			};
-			class rhs_GRD40_White
-			{
-				magazine="rhs_GRD40_White";
-				count=10;
-			};
-        };
-        class TransportWeapons
-        {
-            class rhs_weap_rpg26
-            {
-                weapon="rhs_weap_rpg26";
-                count=1;
-            };
-        };
-    };
-	
-	class EVLT_Fireteam_AK74_ep_crate:Box_Syndicate_Ammo_F
-    {
-        author="Ferdilanz";
-        mapSize=1.25;
-        class SimpleObject
-        {
-            eden=1;
-            animate[]={};
-            hide[]={};
-            verticalOffset=0.382;
-            verticalOffsetWorld=0;
-            init="''";
-        };
-        scope=2;
-        vehicleclass="EVLT_Fireteam_AK74_ep_crate";
-        displayName="FT Crate (AK-74 EP)";
+        vehicleclass="EVLT_Fireteam_AK74_crate";
+        displayName="FT Crate (AK-74)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
 		editorSubcategory="FT_crates";
@@ -2402,14 +1946,8 @@ class B_Slingload_01_Ammo_F; //Company crate
 				count=10;
 			};
         };
-        class TransportWeapons
-        {
-            class rhs_weap_rpg26
-            {
-                weapon="rhs_weap_rpg26";
-                count=1;
-            };
-        };
+		class transportWeapons
+		{};
     };
 	
 	class EVLT_MMG_CZ_M84_crate:Box_Syndicate_Ammo_F
@@ -2981,212 +2519,9 @@ class B_Slingload_01_Ammo_F; //Company crate
 			};
         };
         class TransportWeapons
-        {
-            class CUP_launch_M72A6_Special
-            {
-                weapon="CUP_launch_M72A6_Special";
-                count=1;
-            };
-        };
+        {};
     };
 
-    class EVLT_Fireteam_M16_crate:Box_Syndicate_Ammo_F
-    {
-        author="Ferdilanz";
-        mapSize=1.25;
-        class SimpleObject
-        {
-            eden=1;
-            animate[]={};
-            hide[]={};
-            verticalOffset=0.382;
-            verticalOffsetWorld=0;
-            init="''";
-        };
-        scope=2;
-        vehicleclass="EVLT_Fireteam_M16_crate";
-        displayName="FT Crate (M16 - VN)";
-        DLC="Expansion";
-        editorCategory="EverlightCrates";
-		editorSubcategory="FT_crates";
-        maximumLoad=10000;
-        destrType="DestructBuilding";
-        armor=50;
-        
-        class TransportItems
-        {
-			class ACE_fieldDressing
-			{
-				name="ACE_fieldDressing";
-				count=10;
-			};
-			class SmokeShell
-			{
-				name="SmokeShell";
-				count=5;
-			};
-			class SmokeShellRed
-			{
-				name="SmokeShellRed";
-				count=5;
-			};
-			class SmokeShellBlue
-			{
-				name="SmokeShellBlue";
-				count=5;
-			};
-        };
-        class TransportMagazines
-        {
-			class rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red
-			{
-				magazine="rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
-				count=30;
-			};
-			class rhsusf_100Rnd_762x51_m62_tracer
-			{
-				magazine="rhsusf_100Rnd_762x51_m62_tracer";
-				count=5;
-			};
-			class 1Rnd_Smoke_Grenade_shell
-			{
-				magazine="1Rnd_Smoke_Grenade_shell";
-				count=5;
-			};
-			class 1Rnd_SmokeRed_Grenade_shell
-			{
-				magazine="1Rnd_SmokeRed_Grenade_shell";
-				count=5;
-			};
-			class 1Rnd_SmokeBlue_Grenade_shell
-			{
-				magazine="1Rnd_SmokeBlue_Grenade_shell";
-				count=5;
-			};
-			class ACE_40mm_Flare_white
-			{
-				magazine="ACE_40mm_Flare_white";
-				count=10;
-			};
-			class rhs_mag_m67
-			{
-				magazine="rhs_mag_m67";
-				count=5;
-			};
-			class rhs_mag_M433_HEDP
-			{
-				magazine="rhs_mag_M433_HEDP";
-				count=10;
-			};
-        };
-        class TransportWeapons
-        {
-            class CUP_launch_M72A6_Special
-            {
-                weapon="CUP_launch_M72A6_Special";
-                count=1;
-            };
-        };
-    };
-	
-    class EVLT_Fireteam_M16A2_crate:Box_Syndicate_Ammo_F
-    {
-        author="Ferdilanz";
-        mapSize=1.25;
-        class SimpleObject
-        {
-            eden=1;
-            animate[]={};
-            hide[]={};
-            verticalOffset=0.382;
-            verticalOffsetWorld=0;
-            init="''";
-        };
-        scope=2;
-        vehicleclass="EVLT_Fireteam_M16A2_crate";
-        displayName="FT Crate (M16A2 - CW)";
-        DLC="Expansion";
-        editorCategory="EverlightCrates";
-		editorSubcategory="FT_crates";
-        maximumLoad=10000;
-        destrType="DestructBuilding";
-        armor=50;
-        
-        class TransportItems
-        {
-			class ACE_fieldDressing
-			{
-				name="ACE_fieldDressing";
-				count=10;
-			};
-			class SmokeShell
-			{
-				name="SmokeShell";
-				count=5;
-			};
-			class SmokeShellRed
-			{
-				name="SmokeShellRed";
-				count=5;
-			};
-			class SmokeShellBlue
-			{
-				name="SmokeShellBlue";
-				count=5;
-			};
-        };
-        class TransportMagazines
-        {
-			class rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red
-			{
-				magazine="rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
-				count=30;
-			};
-			class rhsusf_100Rnd_762x51_m62_tracer
-			{
-				magazine="rhsusf_100Rnd_762x51_m62_tracer";
-				count=5;
-			};
-			class 1Rnd_Smoke_Grenade_shell
-			{
-				magazine="1Rnd_Smoke_Grenade_shell";
-				count=5;
-			};
-			class 1Rnd_SmokeRed_Grenade_shell
-			{
-				magazine="1Rnd_SmokeRed_Grenade_shell";
-				count=5;
-			};
-			class 1Rnd_SmokeBlue_Grenade_shell
-			{
-				magazine="1Rnd_SmokeBlue_Grenade_shell";
-				count=5;
-			};
-			class ACE_40mm_Flare_white
-			{
-				magazine="ACE_40mm_Flare_white";
-				count=10;
-			};
-			class rhs_mag_m67
-			{
-				magazine="rhs_mag_m67";
-				count=5;
-			};
-			class rhs_mag_M433_HEDP
-			{
-				magazine="rhs_mag_M433_HEDP";
-				count=10;
-			};
-        };
-        class TransportWeapons
-        {
-            class rhs_weap_m72a7
-            {
-                weapon="rhs_weap_m72a7";
-                count=1;
-            };
-        };
-    };
 	class EVLT_Flare_GP25_crate:Box_Syndicate_Ammo_F
 	{
         author="Ferdilanz";
@@ -3429,8 +2764,8 @@ class B_Slingload_01_Ammo_F; //Company crate
 	{};
 	class TransportMagazines
 	{};
-        class TransportWeapons
-        {};
+	class TransportWeapons
+	{};
 	class TransportBackpacks
 	{};
     };
@@ -3453,13 +2788,13 @@ class B_Slingload_01_Ammo_F; //Company crate
         displayName="Squad Crate";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="Logi_crates";
+		editorSubcategory="Logi_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-	ace_cargo_space = 8; // defines the amount of ACE cargo space in the crate
+		ace_cargo_space = 8; // defines the amount of ACE cargo space in the crate
         ace_cargo_hasCargo = 1; // enables the crate to carry cargo
-	ace_cargo_size = 6;  // Cargo space the object takes
+		ace_cargo_size = 6;  // Cargo space the object takes
         ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
         ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
         // Dragging
@@ -3481,14 +2816,14 @@ class B_Slingload_01_Ammo_F; //Company crate
                 };
             };*/
         };
-	class TransportItems
-	{};
-	class TransportMagazines
-	{};
+		class TransportItems
+		{};
+		class TransportMagazines
+		{};
         class TransportWeapons
         {};
-	class TransportBackpacks
-	{};
+		class TransportBackpacks
+		{};
     };
 
 	class EVLT_Empty_Platoon_crate:B_cargoNet_01_ammo_f
@@ -3509,13 +2844,13 @@ class B_Slingload_01_Ammo_F; //Company crate
         displayName="Platoon Crate";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="Logi_crates";
+		editorSubcategory="Logi_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-	ace_cargo_space = 32; // defines the amount of ACE cargo space in the crate
+		ace_cargo_space = 32; // defines the amount of ACE cargo space in the crate
         ace_cargo_hasCargo = 1; // enables the crate to carry cargo
-	ace_cargo_size = 8;  // Cargo space the object takes
+		ace_cargo_size = 8;  // Cargo space the object takes
         ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
         ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
         ace_cargo_blockUnloadCarry = 1; // Blocks object from being automatically picked up by player on unload
@@ -3538,15 +2873,15 @@ class B_Slingload_01_Ammo_F; //Company crate
                 };
             };*/
         };
-	class TransportItems
-	{};
-	class TransportMagazines
-	{};
+		class TransportItems
+		{};
+		class TransportMagazines
+		{};
         class TransportWeapons
         {};
-	class TransportBackpacks
-	{};
-    };
+		class TransportBackpacks
+		{};
+	};
 	class EVLT_Empty_Company_crate:B_Slingload_01_Ammo_F
 	{
         	author="Ferdilanz";
@@ -3565,14 +2900,14 @@ class B_Slingload_01_Ammo_F; //Company crate
         displayName="Company Crate";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="Logi_crates";
+		editorSubcategory="Logi_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-	ace_rearm_defaultSupply = -1; // set rearm supply the crate can provide
-	ace_cargo_space = 52; // defines the amount of ACE cargo space in the crate
+		ace_rearm_defaultSupply = -1; // set rearm supply the crate can provide
+		ace_cargo_space = 52; // defines the amount of ACE cargo space in the crate
         ace_cargo_hasCargo = 1; // enables the crate to carry cargo
-	ace_cargo_size = 20;  // Cargo space the object takes
+		ace_cargo_size = 20;  // Cargo space the object takes
         ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
         ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
         ace_cargo_blockUnloadCarry = 1; // Blocks object from being automatically picked up by player on unload
@@ -3595,14 +2930,14 @@ class B_Slingload_01_Ammo_F; //Company crate
                 };
             };*/
         };
-	class TransportItems
-	{};
-	class TransportMagazines
-	{};
+		class TransportItems
+		{};
+		class TransportMagazines
+		{};
         class TransportWeapons
         {};
-	class TransportBackpacks
-	{};
+		class TransportBackpacks
+		{};
     };
 
 	/* class EVLT_VehicleServiceSmall_crate:CargoNet_01_barrels_F // not in config.cpp
@@ -3686,20 +3021,20 @@ class B_Slingload_01_Ammo_F; //Company crate
         displayName="Vehicle Service Crate";
         DLC="Expansion";
         editorCategory="EverlightCrates";
-	editorSubcategory="Logi_crates";
+		editorSubcategory="Logi_crates";
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
         
-	ace_cargo_space = 6; // defines the amount of ACE cargo space in the crate
+		ace_cargo_space = 6; // defines the amount of ACE cargo space in the crate
         ace_cargo_hasCargo = 1; // enables the crate to carry cargo
-	ace_cargo_size = 6;  // Cargo space the object takes
+		ace_cargo_size = 6;  // Cargo space the object takes
         ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
         ace_cargo_noRename = 1;  // Blocks renaming object (1-blocked, 0-allowed)
         ace_cargo_blockUnloadCarry = 1; // Blocks object from being automatically picked up by player on unload
-	ace_repair_canRepair = 1; // Make repair vehicle
-	ace_rearm_defaultSupply = 5000; // set rearm supply the crate can provide
-	ace_refuel_fuelCargo = -10; // Maximum fuel cargo amount (in liters)
+		ace_repair_canRepair = 1; // Make repair vehicle
+		ace_rearm_defaultSupply = 5000; // set rearm supply the crate can provide
+		ace_refuel_fuelCargo = -10; // Maximum fuel cargo amount (in liters)
         // ace_refuel_hooks[] = {{0.0,0.0,0.0},{0.0,0.0,0.0}}; // Nozzle hooks positions/ Zero is default aka hidden at the origin
         // Dragging
         ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
@@ -3715,20 +3050,20 @@ class B_Slingload_01_Ammo_F; //Company crate
             class Cargo {
                 };
             };
-	class TransportItems
-	{
-		class Toolkit
+		class TransportItems
 		{
-			name="Toolkit";
-			count=1;
+			class Toolkit
+			{
+				name="Toolkit";
+				count=1;
+			};
 		};
-	};
-	class TransportMagazines
-	{};
+		class TransportMagazines
+		{};
         class TransportWeapons
         {};
-	class TransportBackpacks
-	{};
+		class TransportBackpacks
+		{};
     };
 	/* class EVLT_VehicleServiceLarge_crate:B_Slingload_01_Cargo_F // not in Config.cpp
 	{
