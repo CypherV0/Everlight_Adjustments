@@ -1887,7 +1887,7 @@ class B_Slingload_01_Ammo_F; //Company crate
         };
         scope=2;
         vehicleclass="EVLT_Fireteam_AK74_crate";
-        displayName="FT Crate (AK-74)";
+        displayName="FT Crate (AK-545)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
 		editorSubcategory="FT_crates";
