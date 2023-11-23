@@ -317,7 +317,7 @@ class B_Slingload_01_Ammo_F; //Company crate
         };
         scope=2;
         vehicleclass="EVLT_Fireteam_M16_crate";
-        displayName="FT Crate (Cold War)";
+        displayName="FT Crate (US Cold War)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
 		editorSubcategory="FT_crates";
@@ -410,7 +410,7 @@ class B_Slingload_01_Ammo_F; //Company crate
         };
         scope=2;
         vehicleclass="EVLT_Fireteam_Rangers_SCAR_crate";
-        displayName="FT Crate (Rangers - SCAR)";
+        displayName="FT Crate (SCAR-H)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
 		editorSubcategory="FT_crates";
@@ -705,7 +705,7 @@ class B_Slingload_01_Ammo_F; //Company crate
         };
         scope=2;
         vehicleclass="EVLT_Fireteam_CZ_VZ58_crate";
-        displayName="FT Crate (CZ-58)";
+        displayName="FT Crate (Vz-58)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
 		editorSubcategory="FT_crates";
@@ -1535,7 +1535,7 @@ class B_Slingload_01_Ammo_F; //Company crate
         };
     };
 	
-	class EVLT_Fireteam_Russia_AK762_crate:Box_Syndicate_Ammo_F
+	class EVLT_Fireteam_AK762_crate:Box_Syndicate_Ammo_F
     {
         author="Ferdilanz";
         mapSize=1.25;
@@ -1789,89 +1789,6 @@ class B_Slingload_01_Ammo_F; //Company crate
         {};
     };
 	
-	class EVLT_Fireteam_FinlandArmy_crate:Box_Syndicate_Ammo_F
-    {
-        author="Ferdilanz";
-        mapSize=1.25;
-        class SimpleObject
-        {
-            eden=1;
-            animate[]={};
-            hide[]={};
-            verticalOffset=0.382;
-            verticalOffsetWorld=0;
-            init="''";
-        };
-        scope=2;
-        vehicleclass="EVLT_Fireteam_FinlandArmy_crate";
-        displayName="FT Crate (Finnish Army)";
-        DLC="Expansion";
-        editorCategory="EverlightCrates";
-		editorSubcategory="FT_crates";
-        maximumLoad=10000;
-        destrType="DestructBuilding";
-        armor=50;
-        
-        class TransportItems
-        {
-			class ACE_fieldDressing
-			{
-				name="ACE_fieldDressing";
-				count=10;
-			};
-        };
-        class TransportMagazines
-        {
-			class rhs_30Rnd_762x39mm_polymer
-			{
-				magazine="rhs_30Rnd_762x39mm_polymer";
-				count=35;
-			};
-			class rhs_30Rnd_762x39mm_polymer_tracer
-			{
-				magazine="rhs_30Rnd_762x39mm_polymer_tracer";
-				count=15;
-			};
-			class rhsusf_200rnd_556x45_mixed_box
-			{
-				magazine="rhsusf_200rnd_556x45_mixed_box";
-				count=5;
-			};
-			class rhs_mag_rdg2_white
-			{
-				magazine="rhs_mag_rdg2_white";
-				count=5;
-			};
-			class rhs_mag_rgo
-			{
-				magazine="rhs_mag_rgo";
-				count=5;
-			};
-			class rhs_VOG25
-			{
-				magazine="rhs_VOG25";
-				count=10;
-			};
-			class rhs_GRD40_Red
-			{
-				magazine="rhs_GRD40_Red";
-				count=5;
-			};
-			class rhs_GRD40_Green
-			{
-				magazine="rhs_GRD40_Green";
-				count=5;
-			};
-			class rhs_GRD40_White
-			{
-				magazine="rhs_GRD40_White";
-				count=10;
-			};
-        };
-        class TransportWeapons
-        {};
-    };
-	
 	class EVLT_Fireteam_AK74_crate:Box_Syndicate_Ammo_F
     {
         author="Ferdilanz";
@@ -1887,7 +1804,7 @@ class B_Slingload_01_Ammo_F; //Company crate
         };
         scope=2;
         vehicleclass="EVLT_Fireteam_AK74_crate";
-        displayName="FT Crate (AK-74)";
+        displayName="FT Crate (AK-545)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
 		editorSubcategory="FT_crates";
