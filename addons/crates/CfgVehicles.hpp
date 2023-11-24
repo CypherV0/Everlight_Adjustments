@@ -850,7 +850,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_60Rnd_545X39_AK_Green
 			{
 				magazine="rhs_60Rnd_545X39_AK_Green";
-				count=20;
+				count=15;
 			};
 			class uk3cb_1rnd_riflegrenade_mas_flare
 			{
