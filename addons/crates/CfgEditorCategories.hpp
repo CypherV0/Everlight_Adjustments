@@ -23,10 +23,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "RAT Crates";
 	};
-	class LAT_crates
+/*	class LAT_crates
 	{
 		displayName = "LAT Crates";
-	};
+	};*/
 	class MAT_crates
 	{
 		displayName = "MAT Crates";
