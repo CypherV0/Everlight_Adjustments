@@ -358,7 +358,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
 				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
-				count=10;
+				count=15;
 			};
 			class 1Rnd_Smoke_Grenade_shell
 			{
@@ -653,7 +653,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class hlc_100rnd_556x45_M_G36
 			{
 				magazine="hlc_100rnd_556x45_M_G36";
-				count=10;
+				count=15;
 			};
 			class 1Rnd_Smoke_Grenade_shell
 			{
@@ -850,7 +850,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_60Rnd_545X39_AK_Green
 			{
 				magazine="rhs_60Rnd_545X39_AK_Green";
-				count=15;
+				count=20;
 			};
 			class uk3cb_1rnd_riflegrenade_mas_flare
 			{
@@ -1072,7 +1072,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_60Rnd_545X39_AK_Green
 			{
 				magazine="rhs_60Rnd_545X39_AK_Green";
-				count=15;
+				count=20;
 			};
         };
     };
@@ -1113,7 +1113,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_75Rnd_762x39mm_tracer
 			{
 				magazine="rhs_75Rnd_762x39mm_tracer";
-				count=15;
+				count=20;
 			};
         };
     };
@@ -1364,7 +1364,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_fgm148_magazine_AT
 			{
 				magazine="rhs_fgm148_magazine_AT";
-				count=5;
+				count=4;
 			};
         };
     };
@@ -1415,7 +1415,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_75Rnd_762x39mm_tracer
 			{
 				magazine="rhs_75Rnd_762x39mm_tracer";
-				count=10;
+				count=20;
 			};
 			class rhs_mag_rdg2_white
 			{
@@ -1586,7 +1586,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_75Rnd_762x39mm_tracer
 			{
 				magazine="rhs_75Rnd_762x39mm_tracer";
-				count=10;
+				count=20;
 			};
 			class rhsgref_10Rnd_792x57_m76
 			{
@@ -1821,7 +1821,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_weap_fim92
 			{
 				weapon="rhs_weap_fim92";
-				count=2;
+				count=1;
 			};
         };
 		class TransportMagazines
@@ -1829,7 +1829,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_fim92_mag
 			{
 				magazine="rhs_fim92_mag";
-				count=4;
+				count=2;
 			};
 		};
 		class TransportBackpacks
@@ -1866,7 +1866,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_weap_igla
 			{
 				weapon="rhs_weap_igla";
-				count=2;
+				count=1;
 			};
         };
 		class TransportMagazines
@@ -1874,7 +1874,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_9k38_rocket
 			{
 				magazine="rhs_mag_9k38_rocket";
-				count=4;
+				count=2;
 			};
 		};
 		class TransportBackpacks
@@ -2073,7 +2073,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_100Rnd_762x54mmR_green
 			{
 				magazine="rhs_100Rnd_762x54mmR_green";
-				count=10;
+				count=15;
 			};
         };
     };
