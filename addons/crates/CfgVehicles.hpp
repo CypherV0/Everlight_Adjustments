@@ -101,7 +101,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_M433_HEDP
 			{
 				magazine="rhs_mag_M433_HEDP";
-				count=10;
+				count=15;
 			};
         };
 		class transportWeapons
@@ -199,7 +199,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_M433_HEDP
 			{
 				magazine="rhs_mag_M433_HEDP";
-				count=10;
+				count=15;
 			};
         };
 		class transportWeapons
@@ -388,7 +388,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_M433_HEDP
 			{
 				magazine="rhs_mag_M433_HEDP";
-				count=10;
+				count=15;
 			};
         };
         class TransportWeapons
@@ -486,7 +486,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_M433_HEDP
 			{
 				magazine="rhs_mag_M433_HEDP";
-				count=10;
+				count=15;
 			};
         };
     };
@@ -587,7 +587,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_M433_HEDP
 			{
 				magazine="rhs_mag_M433_HEDP";
-				count=10;
+				count=15;
 			};
         };
     };
@@ -683,7 +683,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_M433_HEDP
 			{
 				magazine="rhs_mag_M433_HEDP";
-				count=10;
+				count=15;
 			};
         };
 		class transportWeapons
@@ -781,7 +781,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_M433_HEDP
 			{
 				magazine="rhs_mag_M433_HEDP";
-				count=10;
+				count=15;
 			};
         };
 		class transportWeapons
@@ -1430,7 +1430,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_VOG25
 			{
 				magazine="rhs_VOG25";
-				count=10;
+				count=15;
 			};
 			class rhs_GRD40_Red
 			{
@@ -1518,7 +1518,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_VOG25
 			{
 				magazine="rhs_VOG25";
-				count=10;
+				count=15;
 			};
 			class rhs_GRD40_Red
 			{
@@ -1606,7 +1606,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_VOG25
 			{
 				magazine="rhs_VOG25";
-				count=10;
+				count=15;
 			};
 			class rhs_GRD40_Red
 			{
@@ -1689,7 +1689,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_VOG25
 			{
 				magazine="rhs_VOG25";
-				count=10;
+				count=15;
 			};
 			class rhs_GRD40_Red
 			{
@@ -2246,7 +2246,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_M433_HEDP
 			{
 				magazine="rhs_mag_M433_HEDP";
-				count=10;
+				count=15;
 			};
         };
         class TransportWeapons
