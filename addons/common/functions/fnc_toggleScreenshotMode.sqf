@@ -18,6 +18,7 @@ if (isNil QGVAR(screenshotState)) then {
         missionNamespace getVariable ["STHud_UIMode", 0],
         missionNamespace getVariable ["ace_nametags_showplayernames", 0],
         missionNamespace getVariable ["diwako_dui_main_toggled_off", false],
+        missionNamespace getVariable ["ace_advanced_fatigue_enableStaminaBar", true],
         missionNamespace getVariable [QGVAR(showReiceiverHint), false],
         shownHUD
     ];
@@ -25,6 +26,10 @@ if (isNil QGVAR(screenshotState)) then {
     missionNamespace setVariable ["STHud_UIMode", 0];
     missionNamespace setVariable ["ace_nametags_showplayernames", 0];
     missionNamespace setVariable ["diwako_dui_main_toggled_off", true];
+    missionNamespace setVariable ["ace_advanced_fatigue_enableStaminaBar", false];
+    private _staminaBarContainer = uiNamespace getVariable ["ace_advanced_fatigue_staminaBarContainer", controlNull];
+    _staminaBarContainer ctrlSetFade 1;
+    _staminaBarContainer ctrlCommit 0;
     showHUD (shownHUD apply {false});
     GVAR(showReiceiverHint) = false;
 
@@ -38,6 +43,7 @@ if (isNil QGVAR(screenshotState)) then {
     missionNamespace setVariable ["STHud_UIMode", GVAR(screenshotState) deleteAt 0];
     missionNamespace setVariable ["ace_nametags_showplayernames", GVAR(screenshotState) deleteAt 0];
     missionNamespace setVariable ["diwako_dui_main_toggled_off", GVAR(screenshotState) deleteAt 0];
+    missionNamespace setVariable ["ace_advanced_fatigue_enableStaminaBar", GVAR(screenshotState) deleteAt 0];
     missionNamespace setVariable [QGVAR(showReiceiverHint), GVAR(screenshotState) deleteAt 0];
     showHUD (GVAR(screenshotState) param [0, []]);
     showChat true;
