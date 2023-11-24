@@ -1051,7 +1051,7 @@ class B_Slingload_01_Ammo_F; //Company crate
         };
         scope=2;
         vehicleclass="EVLT_AR_RPK74_crate";
-        displayName="AR Crate (RPK-74)";
+        displayName="AR Crate (RPK-545)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
 		editorSubcategory="AR_crates";
