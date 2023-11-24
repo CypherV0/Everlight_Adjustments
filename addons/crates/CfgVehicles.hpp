@@ -43,7 +43,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class SmokeShell
 			{
 				name="SmokeShell";
-				count=5;
+				count=10;
 			};
 			class SmokeShellRed
 			{
@@ -96,7 +96,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_m67
 			{
 				magazine="rhs_mag_m67";
-				count=5;
+				count=10;
 			};
 			class rhs_mag_M433_HEDP
 			{
@@ -141,7 +141,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class SmokeShell
 			{
 				name="SmokeShell";
-				count=5;
+				count=10;
 			};
 			class SmokeShellRed
 			{
@@ -194,7 +194,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_m67
 			{
 				magazine="rhs_mag_m67";
-				count=5;
+				count=10;
 			};
 			class rhs_mag_M433_HEDP
 			{
@@ -239,7 +239,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class SmokeShell
 			{
 				name="SmokeShell";
-				count=5;
+				count=10;
 			};
 			class SmokeShellRed
 			{
@@ -335,7 +335,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class SmokeShell
 			{
 				name="SmokeShell";
-				count=5;
+				count=10;
 			};
 			class SmokeShellRed
 			{
@@ -355,9 +355,9 @@ class B_Slingload_01_Ammo_F; //Company crate
 				magazine="rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
 				count=50;
 			};
-			class rhsusf_100Rnd_762x51_m62_tracer
+			class CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="rhsusf_100Rnd_762x51_m62_tracer";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=10;
 			};
 			class 1Rnd_Smoke_Grenade_shell
@@ -383,7 +383,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_m67
 			{
 				magazine="rhs_mag_m67";
-				count=5;
+				count=10;
 			};
 			class rhs_mag_M433_HEDP
 			{
@@ -428,7 +428,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class SmokeShell
 			{
 				name="SmokeShell";
-				count=5;
+				count=10;
 			};
 			class SmokeShellRed
 			{
@@ -481,7 +481,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_m67
 			{
 				magazine="rhs_mag_m67";
-				count=5;
+				count=10;
 			};
 			class rhs_mag_M433_HEDP
 			{
@@ -524,7 +524,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class SmokeShell
 			{
 				name="SmokeShell";
-				count=5;
+				count=10;
 			};
 			class SmokeShellRed
 			{
@@ -582,7 +582,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_m67
 			{
 				magazine="rhs_mag_m67";
-				count=5;
+				count=10;
 			};
 			class rhs_mag_M433_HEDP
 			{
@@ -625,7 +625,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class SmokeShell
 			{
 				name="SmokeShell";
-				count=5;
+				count=10;
 			};
 			class SmokeShellRed
 			{
@@ -678,7 +678,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_m67
 			{
 				magazine="rhs_mag_m67";
-				count=5;
+				count=10;
 			};
 			class rhs_mag_M433_HEDP
 			{
@@ -723,7 +723,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class SmokeShell
 			{
 				name="SmokeShell";
-				count=5;
+				count=10;
 			};
 			class SmokeShellRed
 			{
@@ -776,7 +776,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_f1
 			{
 				magazine="rhs_mag_f1";
-				count=5;
+				count=10;
 			};
 			class rhs_mag_M433_HEDP
 			{
@@ -822,7 +822,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class SmokeShell
 			{
 				name="SmokeShell";
-				count=5;
+				count=10;
 			};
 			class SmokeShellRed
 			{
@@ -1192,57 +1192,11 @@ class B_Slingload_01_Ammo_F; //Company crate
         };
         class TransportMagazines
         {
-			class MRAWS_HEAT_F
+			class rhs_mag_maaws_HEDP
 			{
-				magazine="MRAWS_HEAT_F";
+				magazine="rhs_mag_maaws_HEDP";
 				count=10;
 			};
-			class rhs_mag_m67
-			{
-				magazine="rhs_mag_m67";
-				count=5;
-			};
-			class SmokeShell
-			{
-				magazine="SmokeShell";
-				count=5;
-			};
-        };
-    };
-
-	class EVLT_MAT_CarlGustaf_crate:Box_Syndicate_Ammo_F
-    {
-        author="Ferdilanz";
-        mapSize=1.25;
-        class SimpleObject
-        {
-            eden=1;
-            animate[]={};
-            hide[]={};
-            verticalOffset=0.382;
-            verticalOffsetWorld=0;
-            init="''";
-        };
-        scope=2;
-        vehicleclass="EVLT_MAT_CarlGustaf_crate";
-        displayName="MAT Crate (84mm Gustaf)";
-        DLC="Expansion";
-        editorCategory="EverlightCrates";
-	editorSubcategory="MAT_crates";
-        maximumLoad=10000;
-        destrType="DestructBuilding";
-        armor=50;
-        
-        class TransportItems
-        {
-			class ACE_fieldDressing
-			{
-				name="ACE_fieldDressing";
-				count=10;
-			};
-        };
-        class TransportMagazines
-        {
 			class rhs_mag_maaws_HEAT
 			{
 				magazine="rhs_mag_maaws_HEAT";
@@ -1250,7 +1204,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			};
         };
     };
-	
+
 	class EVLT_HAT_9M133_crate:Box_Syndicate_Ammo_F
     {
         author="Ferdilanz";
@@ -1328,12 +1282,12 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class vorona_heat
 			{
 				magazine="vorona_heat";
-				count=5;
+				count=10;
 			};
         };
     };
 	
-	class EVLT_LAT_RPG7_crate:Box_Syndicate_Ammo_F
+	class EVLT_MAT_RPG7_crate:Box_Syndicate_Ammo_F
     {
         author="Ferdilanz";
         mapSize=1.25;
@@ -1347,7 +1301,7 @@ class B_Slingload_01_Ammo_F; //Company crate
             init="''";
         };
         scope=2;
-        vehicleclass="EVLT_LAT_RPG7_crate";
+        vehicleclass="EVLT_MAT_RPG7_crate";
         displayName="MAT Crate (RPG-7)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
@@ -1466,12 +1420,12 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_rdg2_white
 			{
 				magazine="rhs_mag_rdg2_white";
-				count=5;
+				count=10;
 			};
 			class rhs_mag_rgo
 			{
 				magazine="rhs_mag_rgo";
-				count=5;
+				count=10;
 			};
 			class rhs_VOG25
 			{
@@ -1554,12 +1508,12 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhssaf_mag_brd_m83_white
 			{
 				magazine="rhssaf_mag_brd_m83_white";
-				count=5;
+				count=10;
 			};
 			class rhssaf_mag_br_m84
 			{
 				magazine="rhssaf_mag_br_m84";
-				count=5;
+				count=10;
 			};
 			class rhs_VOG25
 			{
@@ -1642,12 +1596,12 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhssaf_mag_brd_m83_white
 			{
 				magazine="rhssaf_mag_brd_m83_white";
-				count=5;
+				count=10;
 			};
 			class rhssaf_mag_br_m75
 			{
 				magazine="rhssaf_mag_br_m75";
-				count=5;
+				count=10;
 			};
 			class rhs_VOG25
 			{
@@ -1725,12 +1679,12 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_rdg2_white
 			{
 				magazine="rhs_mag_rdg2_white";
-				count=5;
+				count=10;
 			};
 			class rhs_mag_rgo
 			{
 				magazine="rhs_mag_rgo";
-				count=5;
+				count=10;
 			};
 			class rhs_VOG25
 			{
@@ -1794,16 +1748,6 @@ class B_Slingload_01_Ammo_F; //Company crate
 			{
 				magazine="rhssaf_250Rnd_762x54R";
 				count=10;
-			};
-			class SmokeShell
-			{
-				magazine="SmokeShell";
-				count=5;
-			};
-			class rhs_mag_f1
-			{
-				magazine="rhs_mag_f1";
-				count=5;
 			};
         };
     };
@@ -2129,22 +2073,12 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_100Rnd_762x54mmR_green
 			{
 				magazine="rhs_100Rnd_762x54mmR_green";
-				count=14;
-			};
-			class rhs_mag_rdg2_white
-			{
-				magazine="rhs_mag_rdg2_white";
-				count=5;
-			};
-			class rhs_mag_rgo
-			{
-				magazine="rhs_mag_rgo";
-				count=5;
+				count=10;
 			};
         };
     };
 	
-	class EVLT_MMG_M240_M60_crate:Box_Syndicate_Ammo_F
+	class EVLT_MMG_M240_M60_Mk48_crate:Box_Syndicate_Ammo_F
     {
         author="Ferdilanz";
         mapSize=1.25;
@@ -2158,7 +2092,7 @@ class B_Slingload_01_Ammo_F; //Company crate
             init="''";
         };
         scope=2;
-        vehicleclass="EVLT_MMG_M240_M60_crate";
+        vehicleclass="EVLT_MMG_M240_M60_Mk48_crate";
         displayName="MMG Crate (M240/M60/Mk48)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
@@ -2177,20 +2111,10 @@ class B_Slingload_01_Ammo_F; //Company crate
         };
         class TransportMagazines
         {
-			class rhsusf_100Rnd_762x51_m62_tracer
+			class CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="rhsusf_100Rnd_762x51_m62_tracer";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=15;
-			};
-			class rhs_mag_m67
-			{
-				magazine="rhs_mag_m67";
-				count=5;
-			};
-			class SmokeShell
-			{
-				magazine="SmokeShell";
-				count=5;
 			};
         };
     };
@@ -2269,7 +2193,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class SmokeShell
 			{
 				name="SmokeShell";
-				count=5;
+				count=10;
 			};
 			class SmokeShellRed
 			{
@@ -2289,9 +2213,9 @@ class B_Slingload_01_Ammo_F; //Company crate
 				magazine="rhsusf_20Rnd_762x51_m62_Mag";
 				count=50;
 			};
-			class rhsusf_100Rnd_762x51_m62_tracer
+			class CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
-				magazine="rhsusf_100Rnd_762x51_m62_tracer";
+				magazine="CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count=15;
 			};
 			class 1Rnd_Smoke_Grenade_shell
@@ -2317,7 +2241,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_mag_m67
 			{
 				magazine="rhs_mag_m67";
-				count=5;
+				count=10;
 			};
 			class rhs_mag_M433_HEDP
 			{
