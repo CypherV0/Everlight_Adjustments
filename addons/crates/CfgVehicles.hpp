@@ -1711,47 +1711,6 @@ class B_Slingload_01_Ammo_F; //Company crate
 		{};
     };
 	
-	class EVLT_MMG_M84_crate:Box_Syndicate_Ammo_F
-    {
-        author="Ferdilanz";
-        mapSize=1.25;
-        class SimpleObject
-        {
-            eden=1;
-            animate[]={};
-            hide[]={};
-            verticalOffset=0.382;
-            verticalOffsetWorld=0;
-            init="''";
-        };
-        scope=2;
-        vehicleclass="EVLT_MMG_M84_crate";
-        displayName="MMG Crate (M84)";
-        DLC="Expansion";
-        editorCategory="EverlightCrates";
-		editorSubcategory="MMG_crates";
-        maximumLoad=10000;
-        destrType="DestructBuilding";
-        armor=50;
-        
-        class TransportItems
-        {
-			class ACE_fieldDressing
-			{
-				name="ACE_fieldDressing";
-				count=10;
-			};
-        };
-        class TransportMagazines
-        {
-			class rhssaf_250Rnd_762x54R
-			{
-				magazine="rhssaf_250Rnd_762x54R";
-				count=10;
-			};
-        };
-    };
-	
 	class EVLT_RAT_RPG75_crate:Box_Syndicate_WpsLaunch_F
     {
         author="Ferdilanz";
@@ -2090,7 +2049,7 @@ class B_Slingload_01_Ammo_F; //Company crate
             init="''";
         };
         scope=2;
-        vehicleclass="EVLT_MMG_PK_RU_crate";
+        vehicleclass="EVLT_MMG_PK_crate";
         displayName="MMG Crate (PKM/PKP)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
