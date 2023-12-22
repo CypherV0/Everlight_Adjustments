@@ -1451,6 +1451,89 @@ class B_Slingload_01_Ammo_F; //Company crate
         class transportWeapons
 		{};
     };
+
+	class EVLT_Fireteam_FinlandArmy_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_Fireteam_FinlandArmy_crate";
+        displayName="FT Crate (Finnish Army)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="FT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+        };
+        class TransportMagazines
+        {
+			class rhs_30Rnd_762x39mm_polymer
+			{
+				magazine="rhs_30Rnd_762x39mm_polymer";
+				count=50;
+			};
+			class rhs_30Rnd_762x39mm_polymer_tracer
+			{
+				magazine="rhs_30Rnd_762x39mm_polymer_tracer";
+				count=15;
+			};
+			class rhs_100Rnd_762x54mmR
+			{
+				magazine="rhs_100Rnd_762x54mmR";
+				count=10;
+			};
+			class rhs_mag_rdg2_white
+			{
+				magazine="rhs_mag_rdg2_white";
+				count=10;
+			};
+			class rhs_mag_rgo
+			{
+				magazine="rhs_mag_rgo";
+				count=10;
+			};
+			class rhs_VOG25
+			{
+				magazine="rhs_VOG25";
+				count=15;
+			};
+			class rhs_GRD40_Red
+			{
+				magazine="rhs_GRD40_Red";
+				count=5;
+			};
+			class rhs_GRD40_Green
+			{
+				magazine="rhs_GRD40_Green";
+				count=5;
+			};
+			class rhs_GRD40_White
+			{
+				magazine="rhs_GRD40_White";
+				count=10;
+			};
+        };
+        class transportWeapons
+		{};
+    };
 	
 	class EVLT_Fireteam_Serbia_Modern_crate:Box_Syndicate_Ammo_F
     {
