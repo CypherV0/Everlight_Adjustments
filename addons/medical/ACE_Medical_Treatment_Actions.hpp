@@ -9,7 +9,7 @@ class ace_medical_treatment_actions {
         allowSelfTreatment = 1;
         allowedSelections[] = {"All"};
         treatmentLocations = TREATMENT_LOCATIONS_ALL;
-        treatmentTime = 20;
+        treatmentTime = "0.5 * ([_medic, _patient] call ace_medical_treatment_fnc_getHealTime)";
         animationMedic = "AinvPknlMstpSlayW[wpn]Dnon_medicOther";
         items[] = {QGVAR(basicAid)};
         condition = "";
@@ -33,13 +33,13 @@ class ace_medical_treatment_actions {
         medicRequired = 0;
         allowSelfTreatment = 1;
         allowedSelections[] = {"All"};
-        condition = "";
+        condition = "(!([player, 'ACE_fieldDressing'] call ace_common_fnc_hasItem)) && {[_medic, _patient, _bodyPart, 'BasicBandage'] call ace_medical_treatment_fnc_canBandage}";
         treatmentLocations = TREATMENT_LOCATIONS_ALL;
-
-        animationMedic = "AinvPknlMstpSlayW[wpn]Dnon_medicOther";
-        animationMedicProne = "AinvPpneMstpSlayW[wpn]Dnon_medicOther";
-        animationMedicSelf = "AinvPknlMstpSlayW[wpn]Dnon_medic";
-        animationMedicSelfProne = "AinvPpneMstpSlayW[wpn]Dnon_medic";
+        treatmentTime = "0.33 * ([_medic, _patient, _bodyPart, 'BasicBandage'] call ace_medical_treatment_fnc_getBandageTime)";
+        animationMedic = "";
+        animationMedicProne = "";
+        animationMedicSelf = "";
+        animationMedicSelfProne = "";
 
         litter[] = {};
     };

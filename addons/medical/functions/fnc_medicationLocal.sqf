@@ -54,4 +54,6 @@ _patient setVariable ["ace_medical_bloodVolume", 6.0, true];
 private _brokenBones = _patient getVariable ["ace_medical_fractures", [0,0,0,0,0,0]];
 _brokenBones = _brokenBones apply { [_x, -1] select (_x == 1) };
 _patient setVariable ["ace_medical_fractures", _brokenBones , true];
+
+[_patient] call ace_medical_engine_fnc_updateDamageEffects;
 };
