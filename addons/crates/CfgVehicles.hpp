@@ -1452,6 +1452,7 @@ class B_Slingload_01_Ammo_F; //Company crate
 		{};
     };
 
+
 	class EVLT_Fireteam_FinlandArmy_crate:Box_Syndicate_Ammo_F
     {
         author="Ferdilanz";
@@ -1474,7 +1475,7 @@ class B_Slingload_01_Ammo_F; //Company crate
         maximumLoad=10000;
         destrType="DestructBuilding";
         armor=50;
-        
+
         class TransportItems
         {
 			class ACE_fieldDressing
@@ -1534,7 +1535,7 @@ class B_Slingload_01_Ammo_F; //Company crate
         class transportWeapons
 		{};
     };
-	
+
 	class EVLT_Fireteam_Serbia_Modern_crate:Box_Syndicate_Ammo_F
     {
         author="Ferdilanz";
