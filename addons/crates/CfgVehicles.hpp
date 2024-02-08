@@ -1511,24 +1511,24 @@ class B_Slingload_01_Ammo_F; //Company crate
 				magazine="rhs_mag_rgo";
 				count=10;
 			};
-			class rhs_VOG25
+			class rhs_mag_M433_HEDP
 			{
-				magazine="rhs_VOG25";
+				magazine="rhs_mag_M433_HEDP";
 				count=15;
 			};
-			class rhs_GRD40_Red
+			class 1Rnd_SmokeRed_Grenade_shell
 			{
-				magazine="rhs_GRD40_Red";
+				magazine="1Rnd_SmokeRed_Grenade_shell";
 				count=5;
 			};
-			class rhs_GRD40_Green
+			class 1Rnd_SmokeBlue_Grenade_shell
 			{
-				magazine="rhs_GRD40_Green";
+				magazine="1Rnd_SmokeBlue_Grenade_shell";
 				count=5;
 			};
-			class rhs_GRD40_White
+			class 1Rnd_Smoke_Grenade_shell
 			{
-				magazine="rhs_GRD40_White";
+				magazine="1Rnd_Smoke_Grenade_shell";
 				count=10;
 			};
         };
