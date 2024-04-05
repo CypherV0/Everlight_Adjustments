@@ -913,6 +913,47 @@ class B_Slingload_01_Ammo_F; //Company crate
         };
     };
 
+class EVLT_AR_QBZ_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_AR_QBZ_crate";
+        displayName="AR Crate (QBZ)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="AR_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+        };
+        class TransportMagazines
+        {
+			class UK3CB_DBP88_100rnd_580x42_GT
+			{
+				magazine="UK3CB_DBP88_100rnd_580x42_GT";
+				count=15;
+			};
+        };
+    };
+
 	class EVLT_AR_M249_crate:Box_Syndicate_Ammo_F
     {
         author="Ferdilanz";
@@ -1158,6 +1199,47 @@ class B_Slingload_01_Ammo_F; //Company crate
 			};
         };
     };
+
+class EVLT_HAT_TitanC_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_HAT_TitanC_crate";
+        displayName="HAT Crate (Titan-C)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="HAT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+        };
+        class TransportMagazines
+        {
+			class Titan_AT
+			{
+				magazine="Titan_AT";
+				count=10;
+			};
+        };
+    };
 	
 	class EVLT_MAT_MAAWS_crate:Box_Syndicate_Ammo_F
     {
@@ -1201,6 +1283,47 @@ class B_Slingload_01_Ammo_F; //Company crate
 			{
 				magazine="rhs_mag_maaws_HEAT";
 				count=10;
+			};
+        };
+    };
+
+	class EVLT_MAT_RPG32_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_MAT_RPG32_crate";
+        displayName="MAT Crate (RPG-32)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="MAT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+        };
+        class TransportMagazines
+        {
+			class RPG32_F
+			{
+				magazine="RPG32_F";
+				count=15;
 			};
         };
     };
@@ -1794,6 +1917,109 @@ class B_Slingload_01_Ammo_F; //Company crate
 		class transportWeapons
 		{};
     };
+    
+	class EVLT_Fireteam_China_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_Fireteam_China_crate";
+        displayName="FT Crate (QBZ)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="FT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+			class rhs_mag_rdg2_white
+			{
+				name="rhs_mag_rdg2_white";
+				count=10;
+			};
+			class SmokeShellRed
+			{
+				name="SmokeShellRed";
+				count=5;
+			};
+			class SmokeShellYellow
+			{
+				name="SmokeShellYellow";
+				count=5;
+			};
+        };
+        class TransportMagazines
+        {
+			class UK3CB_DBP88_30rnd_580x42
+			{
+				magazine="UK3CB_DBP88_30rnd_580x42";
+				count=50;
+			};
+			class UK3CB_DBP88_30rnd_580x42_GT
+			{
+				magazine="UK3CB_DBP88_30rnd_580x42_GT";
+				count=15;
+			};
+			class UK3CB_DBP88_100rnd_580x42_GT
+			{
+				magazine="UK3CB_DBP88_100rnd_580x42_GT";
+				count=10;
+			};
+			class UK3CB_DBP88_10rnd_580x42_GT
+			{
+				magazine="UK3CB_DBP88_10rnd_580x42_GT";
+				count=10;
+			};
+			class 1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeRed_Grenade_shell
+			{
+				magazine="1Rnd_SmokeRed_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeYellow_Grenade_shell
+			{
+				magazine="1Rnd_SmokeYellow_Grenade_shell";
+				count=5;
+			};
+			class ACE_40mm_Flare_white
+			{
+				magazine="ACE_40mm_Flare_white";
+				count=10;
+			};
+			class rhs_mag_rgo
+			{
+				magazine="rhs_mag_rgo";
+				count=10;
+			};
+			class rhs_mag_M433_HEDP
+			{
+				magazine="rhs_mag_M433_HEDP";
+				count=15;
+			};
+        };
+		class transportWeapons
+		{};
+    };
 	
 	class EVLT_RAT_RPG75_crate:Box_Syndicate_WpsLaunch_F
     {
@@ -1911,6 +2137,51 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_fim92_mag
 			{
 				magazine="rhs_fim92_mag";
+				count=2;
+			};
+		};
+		class TransportBackpacks
+		{};
+    };
+
+	class EVLT_AAM_TitanL_crate:Box_Syndicate_WpsLaunch_F
+    { 
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_AAM_TitanL_crate";
+        displayName="AA Missile Crate (Titan-L)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="AAM_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+		class TransportItems
+		{};
+        class TransportWeapons
+        {
+			class launch_B_Titan_tna_F
+			{
+				weapon="launch_B_Titan_tna_F";
+				count=1;
+			};
+        };
+		class TransportMagazines
+		{
+			class Titan_AA
+			{
+				magazine="Titan_AA";
 				count=2;
 			};
 		};
