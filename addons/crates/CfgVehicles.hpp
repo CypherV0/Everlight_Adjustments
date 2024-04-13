@@ -506,7 +506,7 @@ class EVLT_Fireteam_US2035_crate:Box_Syndicate_Ammo_F
         };
         scope=2;
         vehicleclass="EVLT_Fireteam_US2035_crate";
-        displayName="FT Crate (PMC)";
+        displayName="FT Crate (US 2035)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
 		editorSubcategory="FT_crates";
