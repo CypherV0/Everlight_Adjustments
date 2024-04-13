@@ -107,6 +107,104 @@ class B_Slingload_01_Ammo_F; //Company crate
 		class transportWeapons
 		{};
     };
+
+    class EVLT_Fireteam_FAMAS_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_Fireteam_FAMAS_crate";
+        displayName="FT Crate (FAMAS)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="FT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+			class SmokeShell
+			{
+				name="SmokeShell";
+				count=10;
+			};
+			class SmokeShellRed
+			{
+				name="SmokeShellRed";
+				count=5;
+			};
+			class SmokeShellBlue
+			{
+				name="SmokeShellBlue";
+				count=5;
+			};
+        };
+        class TransportMagazines
+        {
+			class UK3CB_FAMAS_25rnd_556x45_R
+			{
+				magazine="UK3CB_FAMAS_25rnd_556x45_R";
+				count=50;
+			};
+			class UK3CB_FAMAS_25rnd_556x45_RT
+			{
+				magazine="UK3CB_FAMAS_25rnd_556x45_RT";
+				count=15;
+			};
+			class rhsusf_200rnd_556x45_mixed_box
+			{
+				magazine="rhsusf_200rnd_556x45_mixed_box";
+				count=10;
+			};
+			class 1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeRed_Grenade_shell
+			{
+				magazine="1Rnd_SmokeRed_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeBlue_Grenade_shell
+			{
+				magazine="1Rnd_SmokeBlue_Grenade_shell";
+				count=5;
+			};
+			class ACE_40mm_Flare_white
+			{
+				magazine="ACE_40mm_Flare_white";
+				count=10;
+			};
+			class rhs_mag_m67
+			{
+				magazine="rhs_mag_m67";
+				count=10;
+			};
+			class rhs_mag_M433_HEDP
+			{
+				magazine="rhs_mag_M433_HEDP";
+				count=15;
+			};
+        };
+		class transportWeapons
+		{};
+    };
 	
     class EVLT_Fireteam_FAL_crate:Box_Syndicate_Ammo_F
     {
