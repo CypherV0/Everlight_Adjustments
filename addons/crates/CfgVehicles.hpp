@@ -490,6 +490,102 @@ class B_Slingload_01_Ammo_F; //Company crate
 			};
         };
     };
+
+class EVLT_Fireteam_US2035_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_Fireteam_US2035_crate";
+        displayName="FT Crate (PMC)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="FT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+			class SmokeShell
+			{
+				name="SmokeShell";
+				count=10;
+			};
+			class SmokeShellRed
+			{
+				name="SmokeShellRed";
+				count=5;
+			};
+			class SmokeShellBlue
+			{
+				name="SmokeShellBlue";
+				count=5;
+			};
+        };
+        class TransportMagazines
+        {
+			class 30Rnd_65x39_caseless_black_mag
+			{
+				magazine="30Rnd_65x39_caseless_black_mag";
+				count=50;
+			};
+			class 30Rnd_65x39_caseless_black_mag_Tracer
+			{
+				magazine="30Rnd_65x39_caseless_black_mag_Tracer";
+				count=15;
+			};
+			class 100Rnd_65x39_caseless_black_mag_tracer
+			{
+				magazine="100Rnd_65x39_caseless_black_mag_tracer";
+				count=15;
+			};
+			class 1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeRed_Grenade_shell
+			{
+				magazine="1Rnd_SmokeRed_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeBlue_Grenade_shell
+			{
+				magazine="1Rnd_SmokeBlue_Grenade_shell";
+				count=5;
+			};
+			class ACE_40mm_Flare_white
+			{
+				magazine="ACE_40mm_Flare_white";
+				count=10;
+			};
+			class rhs_mag_m67
+			{
+				magazine="rhs_mag_m67";
+				count=10;
+			};
+			class rhs_mag_M433_HEDP
+			{
+				magazine="rhs_mag_M433_HEDP";
+				count=15;
+			};
+        };
+    };
 	
     class EVLT_Fireteam_PMC_ACR_crate:Box_Syndicate_Ammo_F
     {
@@ -654,6 +750,104 @@ class B_Slingload_01_Ammo_F; //Company crate
 			{
 				magazine="hlc_100rnd_556x45_M_G36";
 				count=15;
+			};
+			class 1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeRed_Grenade_shell
+			{
+				magazine="1Rnd_SmokeRed_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeBlue_Grenade_shell
+			{
+				magazine="1Rnd_SmokeBlue_Grenade_shell";
+				count=5;
+			};
+			class ACE_40mm_Flare_white
+			{
+				magazine="ACE_40mm_Flare_white";
+				count=10;
+			};
+			class rhs_mag_m67
+			{
+				magazine="rhs_mag_m67";
+				count=10;
+			};
+			class rhs_mag_M433_HEDP
+			{
+				magazine="rhs_mag_M433_HEDP";
+				count=15;
+			};
+        };
+		class transportWeapons
+		{};
+    };
+
+	class EVLT_Fireteam_SAS_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_Fireteam_SAS_crate";
+        displayName="FT Crate (SAS)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="FT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+			class SmokeShell
+			{
+				name="SmokeShell";
+				count=10;
+			};
+			class SmokeShellRed
+			{
+				name="SmokeShellRed";
+				count=5;
+			};
+			class SmokeShellBlue
+			{
+				name="SmokeShellBlue";
+				count=5;
+			};
+        };
+        class TransportMagazines
+        {
+			class rhssaf_30rnd_556x45_EPR_G36
+			{
+				magazine="rhssaf_30rnd_556x45_EPR_G36";
+				count=50;
+			};
+			class rhssaf_30rnd_556x45_Tracers_G36
+			{
+				magazine="rhssaf_30rnd_556x45_Tracers_G36";
+				count=15;
+			};
+			class rhsusf_200Rnd_556x45_box
+			{
+				magazine="rhsusf_200Rnd_556x45_box";
+				count=10;
 			};
 			class 1Rnd_Smoke_Grenade_shell
 			{
