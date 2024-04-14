@@ -319,7 +319,7 @@ class B_Slingload_01_Ammo_F; //Company crate
         };
         scope=2;
         vehicleclass="EVLT_Fireteam_ROK_crate";
-        displayName="FT Crate (ROK)";
+        displayName="FT Crate (S. Korea)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
 		editorSubcategory="FT_crates";
