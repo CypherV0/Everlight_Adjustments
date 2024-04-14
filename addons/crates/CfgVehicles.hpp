@@ -982,7 +982,7 @@ class EVLT_Fireteam_US2035_crate:Box_Syndicate_Ammo_F
         };
     };
 	
-	class EVLT_Fireteam_GER_crate:Box_Syndicate_Ammo_F
+	class EVLT_Fireteam_G36_XM8_crate:Box_Syndicate_Ammo_F
     {
         author="Ferdilanz";
         mapSize=1.25;
@@ -996,8 +996,8 @@ class EVLT_Fireteam_US2035_crate:Box_Syndicate_Ammo_F
             init="''";
         };
         scope=2;
-        vehicleclass="EVLT_Fireteam_GER_crate";
-        displayName="FT Crate (G36)";
+        vehicleclass="EVLT_Fireteam_G36_XM8_crate";
+        displayName="FT Crate (G36/XM8)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
 		editorSubcategory="FT_crates";
