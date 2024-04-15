@@ -107,6 +107,300 @@ class B_Slingload_01_Ammo_F; //Company crate
 		class transportWeapons
 		{};
     };
+
+    class EVLT_Fireteam_FAMAS_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_Fireteam_FAMAS_crate";
+        displayName="FT Crate (FAMAS)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="FT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+			class SmokeShell
+			{
+				name="SmokeShell";
+				count=10;
+			};
+			class SmokeShellRed
+			{
+				name="SmokeShellRed";
+				count=5;
+			};
+			class SmokeShellBlue
+			{
+				name="SmokeShellBlue";
+				count=5;
+			};
+        };
+        class TransportMagazines
+        {
+			class UK3CB_FAMAS_25rnd_556x45_R
+			{
+				magazine="UK3CB_FAMAS_25rnd_556x45_R";
+				count=50;
+			};
+			class UK3CB_FAMAS_25rnd_556x45_RT
+			{
+				magazine="UK3CB_FAMAS_25rnd_556x45_RT";
+				count=15;
+			};
+			class rhsusf_200rnd_556x45_mixed_box
+			{
+				magazine="rhsusf_200rnd_556x45_mixed_box";
+				count=10;
+			};
+			class 1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeRed_Grenade_shell
+			{
+				magazine="1Rnd_SmokeRed_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeBlue_Grenade_shell
+			{
+				magazine="1Rnd_SmokeBlue_Grenade_shell";
+				count=5;
+			};
+			class ACE_40mm_Flare_white
+			{
+				magazine="ACE_40mm_Flare_white";
+				count=10;
+			};
+			class rhs_mag_m67
+			{
+				magazine="rhs_mag_m67";
+				count=10;
+			};
+			class rhs_mag_M433_HEDP
+			{
+				magazine="rhs_mag_M433_HEDP";
+				count=15;
+			};
+        };
+		class transportWeapons
+		{};
+    };
+
+    class EVLT_Fireteam_AUG_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_Fireteam_AUG_crate";
+        displayName="FT Crate (AUG)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="FT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+			class SmokeShell
+			{
+				name="SmokeShell";
+				count=10;
+			};
+			class SmokeShellRed
+			{
+				name="SmokeShellRed";
+				count=5;
+			};
+			class SmokeShellBlue
+			{
+				name="SmokeShellBlue";
+				count=5;
+			};
+        };
+        class TransportMagazines
+        {
+			class CUP_30Rnd_556x45_AUG
+			{
+				magazine="CUP_30Rnd_556x45_AUG";
+				count=50;
+			};
+			class CUP_30Rnd_TE1_Red_Tracer_556x45_AUG
+			{
+				magazine="CUP_30Rnd_TE1_Red_Tracer_556x45_AUG";
+				count=15;
+			};
+			class rhsusf_200rnd_556x45_mixed_box
+			{
+				magazine="rhsusf_200rnd_556x45_mixed_box";
+				count=10;
+			};
+			class 1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeRed_Grenade_shell
+			{
+				magazine="1Rnd_SmokeRed_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeBlue_Grenade_shell
+			{
+				magazine="1Rnd_SmokeBlue_Grenade_shell";
+				count=5;
+			};
+			class ACE_40mm_Flare_white
+			{
+				magazine="ACE_40mm_Flare_white";
+				count=10;
+			};
+			class rhs_mag_f1
+			{
+				magazine="rhs_mag_f1";
+				count=10;
+			};
+			class rhs_mag_M433_HEDP
+			{
+				magazine="rhs_mag_M433_HEDP";
+				count=15;
+			};
+        };
+		class transportWeapons
+		{};
+    };
+
+    class EVLT_Fireteam_ROK_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_Fireteam_ROK_crate";
+        displayName="FT Crate (S. Korea)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="FT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+			class SmokeShell
+			{
+				name="SmokeShell";
+				count=10;
+			};
+			class SmokeShellRed
+			{
+				name="SmokeShellRed";
+				count=5;
+			};
+			class SmokeShellBlue
+			{
+				name="SmokeShellBlue";
+				count=5;
+			};
+        };
+        class TransportMagazines
+        {
+			class rhs_mag_30Rnd_556x45_M855A1_Stanag
+			{
+				magazine="rhs_mag_30Rnd_556x45_M855A1_Stanag";
+				count=50;
+			};
+			class rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_red
+			{
+				magazine="rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_red";
+				count=15;
+			};
+			class 150Rnd_556x45_Drum_Mag_Tracer_F
+			{
+				magazine="150Rnd_556x45_Drum_Mag_Tracer_F";
+				count=15;
+			};
+			class 1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeRed_Grenade_shell
+			{
+				magazine="1Rnd_SmokeRed_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeBlue_Grenade_shell
+			{
+				magazine="1Rnd_SmokeBlue_Grenade_shell";
+				count=5;
+			};
+			class ACE_40mm_Flare_white
+			{
+				magazine="ACE_40mm_Flare_white";
+				count=10;
+			};
+			class rhs_mag_m67
+			{
+				magazine="rhs_mag_m67";
+				count=10;
+			};
+			class rhs_mag_M433_HEDP
+			{
+				magazine="rhs_mag_M433_HEDP";
+				count=15;
+			};
+        };
+		class transportWeapons
+		{};
+    };
 	
     class EVLT_Fireteam_FAL_crate:Box_Syndicate_Ammo_F
     {
@@ -490,6 +784,102 @@ class B_Slingload_01_Ammo_F; //Company crate
 			};
         };
     };
+
+class EVLT_Fireteam_US2035_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_Fireteam_US2035_crate";
+        displayName="FT Crate (US 2035)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="FT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+			class SmokeShell
+			{
+				name="SmokeShell";
+				count=10;
+			};
+			class SmokeShellRed
+			{
+				name="SmokeShellRed";
+				count=5;
+			};
+			class SmokeShellBlue
+			{
+				name="SmokeShellBlue";
+				count=5;
+			};
+        };
+        class TransportMagazines
+        {
+			class 30Rnd_65x39_caseless_black_mag
+			{
+				magazine="30Rnd_65x39_caseless_black_mag";
+				count=50;
+			};
+			class 30Rnd_65x39_caseless_black_mag_Tracer
+			{
+				magazine="30Rnd_65x39_caseless_black_mag_Tracer";
+				count=15;
+			};
+			class 100Rnd_65x39_caseless_black_mag_tracer
+			{
+				magazine="100Rnd_65x39_caseless_black_mag_tracer";
+				count=15;
+			};
+			class 1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeRed_Grenade_shell
+			{
+				magazine="1Rnd_SmokeRed_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeBlue_Grenade_shell
+			{
+				magazine="1Rnd_SmokeBlue_Grenade_shell";
+				count=5;
+			};
+			class ACE_40mm_Flare_white
+			{
+				magazine="ACE_40mm_Flare_white";
+				count=10;
+			};
+			class rhs_mag_m67
+			{
+				magazine="rhs_mag_m67";
+				count=10;
+			};
+			class rhs_mag_M433_HEDP
+			{
+				magazine="rhs_mag_M433_HEDP";
+				count=15;
+			};
+        };
+    };
 	
     class EVLT_Fireteam_PMC_ACR_crate:Box_Syndicate_Ammo_F
     {
@@ -592,7 +982,7 @@ class B_Slingload_01_Ammo_F; //Company crate
         };
     };
 	
-	class EVLT_Fireteam_GER_crate:Box_Syndicate_Ammo_F
+	class EVLT_Fireteam_G36_XM8_crate:Box_Syndicate_Ammo_F
     {
         author="Ferdilanz";
         mapSize=1.25;
@@ -606,8 +996,8 @@ class B_Slingload_01_Ammo_F; //Company crate
             init="''";
         };
         scope=2;
-        vehicleclass="EVLT_Fireteam_GER_crate";
-        displayName="FT Crate (G36)";
+        vehicleclass="EVLT_Fireteam_G36_XM8_crate";
+        displayName="FT Crate (G36/XM8)";
         DLC="Expansion";
         editorCategory="EverlightCrates";
 		editorSubcategory="FT_crates";
@@ -654,6 +1044,104 @@ class B_Slingload_01_Ammo_F; //Company crate
 			{
 				magazine="hlc_100rnd_556x45_M_G36";
 				count=15;
+			};
+			class 1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeRed_Grenade_shell
+			{
+				magazine="1Rnd_SmokeRed_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeBlue_Grenade_shell
+			{
+				magazine="1Rnd_SmokeBlue_Grenade_shell";
+				count=5;
+			};
+			class ACE_40mm_Flare_white
+			{
+				magazine="ACE_40mm_Flare_white";
+				count=10;
+			};
+			class rhs_mag_m67
+			{
+				magazine="rhs_mag_m67";
+				count=10;
+			};
+			class rhs_mag_M433_HEDP
+			{
+				magazine="rhs_mag_M433_HEDP";
+				count=15;
+			};
+        };
+		class transportWeapons
+		{};
+    };
+
+	class EVLT_Fireteam_SAS_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_Fireteam_SAS_crate";
+        displayName="FT Crate (SAS)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="FT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+			class SmokeShell
+			{
+				name="SmokeShell";
+				count=10;
+			};
+			class SmokeShellRed
+			{
+				name="SmokeShellRed";
+				count=5;
+			};
+			class SmokeShellBlue
+			{
+				name="SmokeShellBlue";
+				count=5;
+			};
+        };
+        class TransportMagazines
+        {
+			class rhssaf_30rnd_556x45_EPR_G36
+			{
+				magazine="rhssaf_30rnd_556x45_EPR_G36";
+				count=50;
+			};
+			class rhssaf_30rnd_556x45_Tracers_G36
+			{
+				magazine="rhssaf_30rnd_556x45_Tracers_G36";
+				count=15;
+			};
+			class rhsusf_200Rnd_556x45_box
+			{
+				magazine="rhsusf_200Rnd_556x45_box";
+				count=10;
 			};
 			class 1Rnd_Smoke_Grenade_shell
 			{
@@ -913,6 +1401,47 @@ class B_Slingload_01_Ammo_F; //Company crate
         };
     };
 
+class EVLT_AR_QBZ_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_AR_QBZ_crate";
+        displayName="AR Crate (QBZ)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="AR_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+        };
+        class TransportMagazines
+        {
+			class UK3CB_DBP88_100rnd_580x42_GT
+			{
+				magazine="UK3CB_DBP88_100rnd_580x42_GT";
+				count=15;
+			};
+        };
+    };
+
 	class EVLT_AR_M249_crate:Box_Syndicate_Ammo_F
     {
         author="Ferdilanz";
@@ -1158,6 +1687,47 @@ class B_Slingload_01_Ammo_F; //Company crate
 			};
         };
     };
+
+class EVLT_HAT_TitanC_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_HAT_TitanC_crate";
+        displayName="HAT Crate (Titan-C)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="HAT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+        };
+        class TransportMagazines
+        {
+			class Titan_AT
+			{
+				magazine="Titan_AT";
+				count=10;
+			};
+        };
+    };
 	
 	class EVLT_MAT_MAAWS_crate:Box_Syndicate_Ammo_F
     {
@@ -1201,6 +1771,47 @@ class B_Slingload_01_Ammo_F; //Company crate
 			{
 				magazine="rhs_mag_maaws_HEAT";
 				count=10;
+			};
+        };
+    };
+
+	class EVLT_MAT_RPG32_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_MAT_RPG32_crate";
+        displayName="MAT Crate (RPG-32)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="MAT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+        };
+        class TransportMagazines
+        {
+			class RPG32_F
+			{
+				magazine="RPG32_F";
+				count=15;
 			};
         };
     };
@@ -1794,6 +2405,109 @@ class B_Slingload_01_Ammo_F; //Company crate
 		class transportWeapons
 		{};
     };
+    
+	class EVLT_Fireteam_China_crate:Box_Syndicate_Ammo_F
+    {
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_Fireteam_China_crate";
+        displayName="FT Crate (QBZ)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="FT_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+        class TransportItems
+        {
+			class ACE_fieldDressing
+			{
+				name="ACE_fieldDressing";
+				count=10;
+			};
+			class rhs_mag_rdg2_white
+			{
+				name="rhs_mag_rdg2_white";
+				count=10;
+			};
+			class SmokeShellRed
+			{
+				name="SmokeShellRed";
+				count=5;
+			};
+			class SmokeShellYellow
+			{
+				name="SmokeShellYellow";
+				count=5;
+			};
+        };
+        class TransportMagazines
+        {
+			class UK3CB_DBP88_30rnd_580x42
+			{
+				magazine="UK3CB_DBP88_30rnd_580x42";
+				count=50;
+			};
+			class UK3CB_DBP88_30rnd_580x42_GT
+			{
+				magazine="UK3CB_DBP88_30rnd_580x42_GT";
+				count=15;
+			};
+			class UK3CB_DBP88_100rnd_580x42_GT
+			{
+				magazine="UK3CB_DBP88_100rnd_580x42_GT";
+				count=10;
+			};
+			class UK3CB_DBP88_10rnd_580x42_GT
+			{
+				magazine="UK3CB_DBP88_10rnd_580x42_GT";
+				count=10;
+			};
+			class 1Rnd_Smoke_Grenade_shell
+			{
+				magazine="1Rnd_Smoke_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeRed_Grenade_shell
+			{
+				magazine="1Rnd_SmokeRed_Grenade_shell";
+				count=5;
+			};
+			class 1Rnd_SmokeYellow_Grenade_shell
+			{
+				magazine="1Rnd_SmokeYellow_Grenade_shell";
+				count=5;
+			};
+			class ACE_40mm_Flare_white
+			{
+				magazine="ACE_40mm_Flare_white";
+				count=10;
+			};
+			class rhs_mag_rgo
+			{
+				magazine="rhs_mag_rgo";
+				count=10;
+			};
+			class rhs_mag_M433_HEDP
+			{
+				magazine="rhs_mag_M433_HEDP";
+				count=15;
+			};
+        };
+		class transportWeapons
+		{};
+    };
 	
 	class EVLT_RAT_RPG75_crate:Box_Syndicate_WpsLaunch_F
     {
@@ -1911,6 +2625,51 @@ class B_Slingload_01_Ammo_F; //Company crate
 			class rhs_fim92_mag
 			{
 				magazine="rhs_fim92_mag";
+				count=2;
+			};
+		};
+		class TransportBackpacks
+		{};
+    };
+
+	class EVLT_AAM_TitanL_crate:Box_Syndicate_WpsLaunch_F
+    { 
+        author="Ferdilanz";
+        mapSize=1.25;
+        class SimpleObject
+        {
+            eden=1;
+            animate[]={};
+            hide[]={};
+            verticalOffset=0.382;
+            verticalOffsetWorld=0;
+            init="''";
+        };
+        scope=2;
+        vehicleclass="EVLT_AAM_TitanL_crate";
+        displayName="AA Missile Crate (Titan-L)";
+        DLC="Expansion";
+        editorCategory="EverlightCrates";
+		editorSubcategory="AAM_crates";
+        maximumLoad=10000;
+        destrType="DestructBuilding";
+        armor=50;
+        
+		class TransportItems
+		{};
+        class TransportWeapons
+        {
+			class launch_B_Titan_tna_F
+			{
+				weapon="launch_B_Titan_tna_F";
+				count=1;
+			};
+        };
+		class TransportMagazines
+		{
+			class Titan_AA
+			{
+				magazine="Titan_AA";
 				count=2;
 			};
 		};
