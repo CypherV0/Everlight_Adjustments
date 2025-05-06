@@ -583,9 +583,9 @@ class B_Slingload_01_Ammo_F; //Company crate
 				magazine="1Rnd_SmokeBlue_Grenade_shell";
 				count=5;
 			};
-			class hlc_12Rnd_357SIG_B_P226
+			class rhsusf_mag_17Rnd_9x19_FMJ
 			{
-				magazine="hlc_12Rnd_357SIG_B_P226";
+				magazine="rhsusf_mag_17Rnd_9x19_FMJ";
 				count=10;
 			};
 			class rhs_mag_mk84
@@ -1040,9 +1040,9 @@ class EVLT_Fireteam_US2035_crate:Box_Syndicate_Ammo_F
 				magazine="rhssaf_30rnd_556x45_Tracers_G36";
 				count=15;
 			};
-			class hlc_100rnd_556x45_M_G36
+			class CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag
 			{
-				magazine="hlc_100rnd_556x45_M_G36";
+				magazine="CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag";
 				count=15;
 			};
 			class 1Rnd_Smoke_Grenade_shell
@@ -1393,9 +1393,9 @@ class EVLT_Fireteam_US2035_crate:Box_Syndicate_Ammo_F
         };
         class TransportMagazines
         {
-			class hlc_100rnd_556x45_M_G36
+			class CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag
 			{
-				magazine="hlc_100rnd_556x45_M_G36";
+				magazine="CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag";
 				count=15;
 			};
         };
@@ -2993,9 +2993,9 @@ class EVLT_HAT_TitanC_crate:Box_Syndicate_Ammo_F
         };
         class TransportMagazines
         {
-			class hlc_200Rnd_792x57_M_MG42
+			class rhsgref_296Rnd_792x57_SmK_alltracers_belt
 			{
-				magazine="hlc_200Rnd_792x57_M_MG42";
+				magazine="rhsgref_296Rnd_792x57_SmK_alltracers_belt";
 				count=10;
 			};
         };
